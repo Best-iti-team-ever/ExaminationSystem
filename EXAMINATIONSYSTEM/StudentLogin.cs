@@ -37,25 +37,27 @@ namespace EXAMINATIONSYSTEM
 
         private void button1_Click(object sender, EventArgs e)//LOGIN BUTTON
         {
-            int stdid;
-            dataSet1.Tables[0].PrimaryKey = new DataColumn[] { dataSet1.Tables[0].Columns["Std_ID"] };
-            int iD = int.Parse(textBox1.Text);
-            var pass = textBox2.Text;
-            DataRow dr = dataSet1.Tables[0].Rows.Find(iD);
-            if(dr != null && dr["Std_Password"].ToString() == pass)
-            {
-                stdid = int.Parse(textBox1.Text);
-                ChooseExam CH = new ChooseExam(stdid);
-                this.Hide();
-                CH.ShowDialog();
-                this.Close();
+            //int stdid;
+            //dataSet1.Tables[0].PrimaryKey = new DataColumn[] { dataSet1.Tables[0].Columns["Std_ID"] };
+            //int iD = int.Parse(textBox1.Text);
+            //var pass = textBox2.Text;
+            //DataRow dr = dataSet1.Tables[0].Rows.Find(iD);
+            //if(dr != null && dr["Std_Password"].ToString() == pass)
+            //{
+            //    stdid = int.Parse(textBox1.Text);
+            //    ChooseExam CH = new ChooseExam(stdid);
+            //    this.Hide();
+            //    CH.ShowDialog();
+            //    this.Close();
 
-            }
-            else
-            {
-                MessageBox.Show("Sorry!You Entered a wrong ID or Password");
-                textBox1.Text = textBox2.Text = string.Empty;
-            }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Sorry!You Entered a wrong ID or Password");
+            //    textBox1.Text = textBox2.Text = string.Empty;
+            //}
+            this.DialogResult = DialogResult.OK;
+            this.Hide();
 
         }
 

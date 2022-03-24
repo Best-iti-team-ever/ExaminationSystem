@@ -8,7 +8,7 @@ namespace EXAMINATIONSYSTEM
 {
    abstract public class User
     {
-        public int id { get; set; }
+        public int uid { get; set; }
         public String name { get; set; }
         public float Mobile { get; set; }
 

@@ -22,12 +22,14 @@ namespace EXAMINATIONSYSTEM
                     case 1:
                         StudentLogin stdlg = new StudentLogin();
                         stdlg.ShowDialog();
-                        user = new Student(int.Parse(stdlg.textBox1.Text), stdlg.textBox2.Text);
+                        if (stdlg.DialogResult == DialogResult.OK)
+                            user = new Student(int.Parse(stdlg.textBox1.Text), stdlg.textBox2.Text);
                         break;
                     case 2:
                         Instructorlogin Inslg = new Instructorlogin();
                         Inslg.ShowDialog();
-                        user = new Instructor(int.Parse(Inslg.textBox1.Text), Inslg.textBox2.Text);
+                        if (Inslg.DialogResult == DialogResult.OK)
+                            user = new Instructor(int.Parse(Inslg.textBox1.Text), Inslg.textBox2.Text);
                         break;
                     //case 3:
 

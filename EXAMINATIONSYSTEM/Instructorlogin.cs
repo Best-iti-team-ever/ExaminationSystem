@@ -15,6 +15,7 @@ namespace EXAMINATIONSYSTEM
         public Instructorlogin()
         {
             InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)//HOME PAGE
@@ -30,8 +31,9 @@ namespace EXAMINATIONSYSTEM
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//login button
         {
+            this.DialogResult = DialogResult.OK;
 
         }
     }
