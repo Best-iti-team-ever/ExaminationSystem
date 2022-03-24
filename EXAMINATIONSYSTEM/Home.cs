@@ -32,5 +32,13 @@ namespace EXAMINATIONSYSTEM
             this.DialogResult = DialogResult.OK;
             this.Hide();  
         }
+
+        private void label2_Click(object sender, EventArgs e)//Admin
+        {
+            user = 3;
+            this.DialogResult = DialogResult.OK;
+            this.Hide();
+
+        }
     }
 }

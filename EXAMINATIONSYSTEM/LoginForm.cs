@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace EXAMINATIONSYSTEM
 {
-    public partial class StudentLogin : Form
+    public partial class Loginform : Form
     {
-        public StudentLogin()
+        public String type { get; set; }
+        public Loginform(string tuser)
         {
             InitializeComponent();
+            type = tuser;
+            label5.Text = type + " Login";
             sqlConnection2.Open();
             sqlDataAdapter1.Fill(dataSet1);
             sqlConnection2.Close();
@@ -23,10 +26,10 @@ namespace EXAMINATIONSYSTEM
 
         private void label1_Click(object sender, EventArgs e)//HOME PAGE
         {
-            Home HOME = new Home();
+            UserSingleton user=UserSingleton.getinstance();
             this.Hide();
-            HOME.ShowDialog();
-            this.Close();
+            user.home.ShowDialog();
+           
         }
 
         private void label4_Click(object sender, EventArgs e)//EXIT APPLICATION
@@ -37,25 +40,6 @@ namespace EXAMINATIONSYSTEM
 
         private void button1_Click(object sender, EventArgs e)//LOGIN BUTTON
         {
-            //int stdid;
-            //dataSet1.Tables[0].PrimaryKey = new DataColumn[] { dataSet1.Tables[0].Columns["Std_ID"] };
-            //int iD = int.Parse(textBox1.Text);
-            //var pass = textBox2.Text;
-            //DataRow dr = dataSet1.Tables[0].Rows.Find(iD);
-            //if(dr != null && dr["Std_Password"].ToString() == pass)
-            //{
-            //    stdid = int.Parse(textBox1.Text);
-            //    ChooseExam CH = new ChooseExam(stdid);
-            //    this.Hide();
-            //    CH.ShowDialog();
-            //    this.Close();
-
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Sorry!You Entered a wrong ID or Password");
-            //    textBox1.Text = textBox2.Text = string.Empty;
-            //}
             this.DialogResult = DialogResult.OK;
             this.Hide();
 

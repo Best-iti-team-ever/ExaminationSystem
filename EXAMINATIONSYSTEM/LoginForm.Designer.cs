@@ -1,7 +1,7 @@
 ﻿
 namespace EXAMINATIONSYSTEM
 {
-    partial class StudentLogin
+    partial class Loginform
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace EXAMINATIONSYSTEM
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentLogin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loginform));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,6 +45,7 @@ namespace EXAMINATIONSYSTEM
             this.dataSet1 = new System.Data.DataSet();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -69,11 +70,11 @@ namespace EXAMINATIONSYSTEM
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(341, 216);
+            this.label2.Location = new System.Drawing.Point(365, 217);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 25);
+            this.label2.Size = new System.Drawing.Size(47, 25);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Student ID :";
+            this.label2.Text = " ID :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
@@ -84,9 +85,9 @@ namespace EXAMINATIONSYSTEM
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(341, 263);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 25);
+            this.label3.Size = new System.Drawing.Size(114, 25);
             this.label3.TabIndex = 4;
-            this.label3.Text = "PASSWORD :";
+            this.label3.Text = "Password  :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // textBox1
@@ -185,7 +186,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::EXAMINATIONSYSTEM.Properties.Resources.std1;
+            this.pictureBox1.Image = global::EXAMINATIONSYSTEM.Properties.Resources.choose_exam;
             this.pictureBox1.Location = new System.Drawing.Point(1, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 452);
@@ -193,11 +194,22 @@ namespace EXAMINATIONSYSTEM
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // StudentLogin
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(464, 124);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 25);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "label5";
+            // 
+            // Loginform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
@@ -207,7 +219,7 @@ namespace EXAMINATIONSYSTEM
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "StudentLogin";
+            this.Name = "Loginform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentLogin";
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
@@ -234,5 +246,6 @@ namespace EXAMINATIONSYSTEM
         private System.Data.SqlClient.SqlDataAdapter sqlDataAdapter1;
         private System.Data.DataSet dataSet1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label5;
     }
 }

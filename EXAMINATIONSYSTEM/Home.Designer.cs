@@ -32,6 +32,7 @@ namespace EXAMINATIONSYSTEM
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Instructor = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,7 +42,7 @@ namespace EXAMINATIONSYSTEM
             this.label1.BackColor = System.Drawing.Color.IndianRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(161, 279);
+            this.label1.Location = new System.Drawing.Point(128, 279);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 36);
             this.label1.TabIndex = 1;
@@ -65,7 +66,7 @@ namespace EXAMINATIONSYSTEM
             this.Instructor.BackColor = System.Drawing.Color.IndianRed;
             this.Instructor.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Instructor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Instructor.Location = new System.Drawing.Point(458, 279);
+            this.Instructor.Location = new System.Drawing.Point(321, 279);
             this.Instructor.Name = "Instructor";
             this.Instructor.Size = new System.Drawing.Size(150, 36);
             this.Instructor.TabIndex = 2;
@@ -73,11 +74,26 @@ namespace EXAMINATIONSYSTEM
             this.Instructor.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Instructor.Click += new System.EventHandler(this.Instructor_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.IndianRed;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(549, 279);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 36);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Admin";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.Instructor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -95,6 +111,7 @@ namespace EXAMINATIONSYSTEM
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Instructor;
+        private System.Windows.Forms.Label label2;
     }
 }
 

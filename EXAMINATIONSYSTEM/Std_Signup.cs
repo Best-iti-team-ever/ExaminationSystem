@@ -76,7 +76,7 @@ namespace EXAMINATIONSYSTEM
             textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = textBox7.Text = string.Empty;
             comboBox1.Text = string.Empty;
 
-            StudentLogin stdlg = new StudentLogin();
+            Loginform stdlg = new Loginform("Student");
             this.Hide();
             stdlg.ShowDialog();
             this.Close();
