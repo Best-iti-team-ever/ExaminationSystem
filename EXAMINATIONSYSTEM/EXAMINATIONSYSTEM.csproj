@@ -64,6 +64,7 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Instructor.cs" />
     <Compile Include="Instructorlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,12 +79,15 @@
     <Compile Include="Std_Signup.Designer.cs">
       <DependentUpon>Std_Signup.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student.cs" />
     <Compile Include="StudentLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="StudentLogin.Designer.cs">
       <DependentUpon>StudentLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="UserSingleton.cs" />
     <EmbeddedResource Include="ChooseExam.resx">
       <DependentUpon>ChooseExam.cs</DependentUpon>
     </EmbeddedResource>

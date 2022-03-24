@@ -1,7 +1,7 @@
 ﻿
 namespace EXAMINATIONSYSTEM
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@ namespace EXAMINATIONSYSTEM
             this.label1.BackColor = System.Drawing.Color.IndianRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(198, 279);
+            this.label1.Location = new System.Drawing.Point(161, 279);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 36);
             this.label1.TabIndex = 1;
@@ -73,7 +73,7 @@ namespace EXAMINATIONSYSTEM
             this.Instructor.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Instructor.Click += new System.EventHandler(this.Instructor_Click);
             // 
-            // Form1
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,7 +81,7 @@ namespace EXAMINATIONSYSTEM
             this.Controls.Add(this.Instructor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

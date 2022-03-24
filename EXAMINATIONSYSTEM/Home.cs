@@ -10,28 +10,27 @@ using System.Windows.Forms;
 
 namespace EXAMINATIONSYSTEM
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public int user { get; set; }
+        public Home()
         {
             InitializeComponent();
-           
+
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)//student
         {
-            StudentLogin stdlg = new StudentLogin();
+            user = 1;
+            this.DialogResult = DialogResult.OK;
             this.Hide();
-            stdlg.ShowDialog();
-            this.Close();
         }
 
         private void Instructor_Click(object sender, EventArgs e)
         {
-            Instructorlogin Inslg = new Instructorlogin();
-            this.Hide();
-            Inslg.ShowDialog();
-            this.Close();
+            user = 2;
+            this.DialogResult = DialogResult.OK;
+            this.Hide();  
         }
     }
 }

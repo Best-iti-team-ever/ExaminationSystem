@@ -19,7 +19,7 @@ namespace EXAMINATIONSYSTEM
 
         private void label1_Click(object sender, EventArgs e)//HOME PAGE
         {
-            Form1 HOME = new Form1();
+            Home HOME = new Home();
             this.Hide();
             HOME.ShowDialog();
             this.Close();
@@ -28,6 +28,11 @@ namespace EXAMINATIONSYSTEM
         private void label4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
