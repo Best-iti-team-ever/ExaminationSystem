@@ -107,8 +107,20 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDepartmentForm.Designer.cs">
+      <DependentUpon>UpdateDepartmentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="UserSingleton.cs" />
+    <Compile Include="ViewCoursesForDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCoursesForDepartmentForm.Designer.cs">
+      <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminControlStud.resx">
       <DependentUpon>AdminControlStud.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDepartmentForm.resx">
+      <DependentUpon>UpdateDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCoursesForDepartmentForm.resx">
+      <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
