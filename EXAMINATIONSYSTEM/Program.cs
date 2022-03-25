@@ -17,9 +17,16 @@ namespace EXAMINATIONSYSTEM
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Home());
-            Application.Run( new ChooseExam( UserSingleton.getinstance().user.uid ) );
-            //UserSingleton user = UserSingleton.getinstance();
-           //((Student)user.user).
+            //Application.Run( new ChooseExam( UserSingleton.getinstance().user.uid ) );
+            User user = UserSingleton.getinstance().user;
+            switch (user.GetType().ToString())
+            {
+                case "EXAMINATIONSYSTEM.Student" :
+                    //"EXAMINATIONSYSTEM.Student":
+                    ChooseExam chooseExam = new ChooseExam(user.uid);
+                    chooseExam.ShowDialog();
+                    break;
+            }
 
         }
     }

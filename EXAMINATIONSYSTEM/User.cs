@@ -11,6 +11,6 @@ namespace EXAMINATIONSYSTEM
         public int uid { get; set; }
         public String name { get; set; }
         public float Mobile { get; set; }
-
+        //public static abstract User InitFromSQL(int id, string pass);
     }
 }

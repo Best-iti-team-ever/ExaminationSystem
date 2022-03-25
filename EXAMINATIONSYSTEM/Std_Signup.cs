@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-
 namespace EXAMINATIONSYSTEM
 {
     public partial class Std_Signup : Form
@@ -41,8 +40,6 @@ namespace EXAMINATIONSYSTEM
 
         private void button1_Click(object sender, EventArgs e)//SUBMIT
         {
-           
-
             SqlCommand cmd = new SqlCommand("sp_insertstudent",con);
             cmd.CommandType = CommandType.StoredProcedure;
 
@@ -69,7 +66,7 @@ namespace EXAMINATIONSYSTEM
             param.Value = int.Parse(comboBox1.Text);
 
             param = cmd.Parameters.Add("@std_passowrd", SqlDbType.NVarChar,50);
-            param.Value = textBox7.Text;
+            param.Value = textBox7.Text.ToHash();
 
             sqlConnection1.Open();
             cmd.Connection = sqlConnection1;

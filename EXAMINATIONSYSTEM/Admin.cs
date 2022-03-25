@@ -5,15 +5,17 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace EXAMINATIONSYSTEM
 {
     class Admin : User
     {
-        SqlConnection con;
 
-        public Admin(int id,string pass)
+        public static User InitFromSQL(int id, string pass)
         {
+            SqlConnection con;
+
             string connetionString = "Data Source=tcp:sqlproject.database.windows.net,1433;Initial Catalog = sqlproject;  Persist Security Info = False; User ID =sqlproject; Password =Project2022; MultipleActiveResultSets = False";
             con = new SqlConnection(connetionString);
 
@@ -30,19 +32,36 @@ namespace EXAMINATIONSYSTEM
             con.Open();
             cmd.ExecuteNonQuery();
             SqlDataReader dReader = cmd.ExecuteReader();
-            while (dReader.Read())
+            if (!dReader.HasRows)
             {
-                uid = int.Parse(dReader[0].ToString());
-                name = dReader[1].ToString();
-                Mobile = float.Parse(dReader[2].ToString());
-               
-                //ChooseExam CH = new ChooseExam(uid);
-                //CH.ShowDialog();
+                Admin admin = new Admin();
 
+                if (dReader.Read())
+                {
+                    admin.uid = int.Parse(dReader[0].ToString());
+                    admin.name = dReader[1].ToString();
+                    admin.Mobile = float.Parse(dReader[2].ToString());
+
+                    //ChooseExam CH = new ChooseExam(uid);
+                    //CH.ShowDialog();
+                }
+                dReader.Close();
+                con.Close();
+                return admin;
+                // Call Close when done reading.
             }
-            // Call Close when done reading.
-            dReader.Close();
-            con.Close();
+            else
+            {
+                MessageBox.Show("Incorrect Credentials");
+                dReader.Close();
+                con.Close();
+                return null;
+            }
+        }
+
+        private Admin()
+        {
+            
         }
         
     }
