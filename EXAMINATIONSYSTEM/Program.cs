@@ -17,7 +17,8 @@ namespace EXAMINATIONSYSTEM
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Home());
-            UserSingleton user = UserSingleton.getinstance();
+            Application.Run( new ChooseExam( UserSingleton.getinstance().user.uid ) );
+            //UserSingleton user = UserSingleton.getinstance();
            //((Student)user.user).
 
         }

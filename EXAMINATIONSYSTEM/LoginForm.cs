@@ -26,16 +26,16 @@ namespace EXAMINATIONSYSTEM
 
         private void label1_Click(object sender, EventArgs e)//HOME PAGE
         {
-            UserSingleton user=UserSingleton.getinstance();
+            this.DialogResult = DialogResult.Cancel;
+            //UserSingleton user=UserSingleton.getinstance();
             this.Hide();
-            user.home.ShowDialog();
-           
+            //user.home.ShowDialog();
+
         }
 
         private void label4_Click(object sender, EventArgs e)//EXIT APPLICATION
         {
-            this.Close();
-
+            Environment.Exit(0);
         }
 
         private void button1_Click(object sender, EventArgs e)//LOGIN BUTTON
