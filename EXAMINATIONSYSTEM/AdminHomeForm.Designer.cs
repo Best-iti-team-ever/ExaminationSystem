@@ -43,11 +43,11 @@
             this.label2.BackColor = System.Drawing.Color.IndianRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(472, 306);
+            this.label2.Location = new System.Drawing.Point(397, 146);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 36);
+            this.label2.Size = new System.Drawing.Size(121, 36);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Admin";
+            this.label2.Text = "Admins";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -57,11 +57,11 @@
             this.label1.BackColor = System.Drawing.Color.IndianRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(266, 205);
+            this.label1.Location = new System.Drawing.Point(388, 218);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 36);
+            this.label1.Size = new System.Drawing.Size(141, 36);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Student";
+            this.label1.Text = "Students";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -71,11 +71,11 @@
             this.Instructor.BackColor = System.Drawing.Color.IndianRed;
             this.Instructor.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Instructor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Instructor.Location = new System.Drawing.Point(256, 306);
+            this.Instructor.Location = new System.Drawing.Point(376, 288);
             this.Instructor.Name = "Instructor";
-            this.Instructor.Size = new System.Drawing.Size(150, 36);
+            this.Instructor.Size = new System.Drawing.Size(166, 36);
             this.Instructor.TabIndex = 6;
-            this.Instructor.Text = "Instructor";
+            this.Instructor.Text = "Instructors";
             this.Instructor.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Instructor.Click += new System.EventHandler(this.Instructor_Click);
             // 
@@ -85,11 +85,11 @@
             this.label3.BackColor = System.Drawing.Color.IndianRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(452, 205);
+            this.label3.Location = new System.Drawing.Point(364, 351);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 36);
+            this.label3.Size = new System.Drawing.Size(193, 36);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Student";
+            this.label3.Text = "Departments";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -98,7 +98,7 @@
             this.AdminHomeLabel.AutoSize = true;
             this.AdminHomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.AdminHomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminHomeLabel.Location = new System.Drawing.Point(310, 95);
+            this.AdminHomeLabel.Location = new System.Drawing.Point(343, 77);
             this.AdminHomeLabel.Name = "AdminHomeLabel";
             this.AdminHomeLabel.Size = new System.Drawing.Size(228, 39);
             this.AdminHomeLabel.TabIndex = 9;
@@ -110,7 +110,7 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.IndianRed;
-            this.label4.Location = new System.Drawing.Point(71, 254);
+            this.label4.Location = new System.Drawing.Point(83, 250);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 29);
             this.label4.TabIndex = 16;
@@ -124,7 +124,7 @@
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.IndianRed;
-            this.label5.Location = new System.Drawing.Point(66, 212);
+            this.label5.Location = new System.Drawing.Point(78, 208);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 29);
             this.label5.TabIndex = 15;
@@ -148,6 +148,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AdminHomeForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminomeForm";
             this.ResumeLayout(false);
             this.PerformLayout();
