@@ -24,15 +24,15 @@ namespace EXAMINATIONSYSTEM
             cmd.CommandType = CommandType.StoredProcedure;
 
             SqlParameter param;
-            param = cmd.Parameters.Add("@ad_id", SqlDbType.VarChar, 50);
+            param = cmd.Parameters.Add("@ad_id", SqlDbType.Int);
             param.Value = id;
 
-            param = cmd.Parameters.Add("@ad_pass", SqlDbType.VarChar, 50);
+            param = cmd.Parameters.Add("@ad_pass", SqlDbType.VarChar, 64);
             param.Value = pass;
             con.Open();
             cmd.ExecuteNonQuery();
             SqlDataReader dReader = cmd.ExecuteReader();
-            if (!dReader.HasRows)
+            if (dReader.HasRows)
             {
                 Admin admin = new Admin();
 

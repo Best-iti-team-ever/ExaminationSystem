@@ -65,15 +65,19 @@ namespace EXAMINATIONSYSTEM
             param = cmd.Parameters.Add("@dept_id", SqlDbType.Int);
             param.Value = int.Parse(comboBox1.Text);
 
-            param = cmd.Parameters.Add("@std_passowrd", SqlDbType.NVarChar,50);
+            param = cmd.Parameters.Add("@std_passowrd", SqlDbType.VarChar,64);
             param.Value = textBox7.Text.ToHash();
 
             sqlConnection1.Open();
             cmd.Connection = sqlConnection1;
             cmd.ExecuteNonQuery();
+            SqlDataReader dReader = cmd.ExecuteReader();
+            if (dReader.Read())
+            {
+                MessageBox.Show("Welcome " + textBox1.Text + " " + textBox2.Text + " Your login Id is : " + dReader[0].ToString() + "\nYour Data is added to our System");
+            }
+            dReader.Close();
             sqlConnection1.Close();
-
-            MessageBox.Show("Welcome "+textBox1.Text+" "+textBox2.Text+"  Your Data is added to our System");
             textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = textBox7.Text = string.Empty;
             comboBox1.Text = string.Empty;
 
@@ -87,7 +91,7 @@ namespace EXAMINATIONSYSTEM
         private void Std_Signup_Load(object sender, EventArgs e)//ON PAGE LOAD
         {
 
-            for (int i = 0; i <dataSet1.Tables[0].Rows.Count;i++)
+            for (int i = 0; i <dataSet2.Tables[0].Rows.Count;i++)
             {
                 DataRow dr = dataSet2.Tables[0].Rows[i];
                 comboBox1.Items.Add(dr["Dept_ID"].ToString());
