@@ -29,3 +29,4 @@ C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSY
 C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
 C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
 C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
+C:\Users\Youssef\source\repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
