@@ -20,9 +20,6 @@ namespace EXAMINATIONSYSTEM
             InitializeComponent();
             sid = stdid;
         }
-
-
-
         private void button1_Click(object sender, EventArgs e)//Start Exam
         {
             Exam ex = new Exam(sid,cid);
@@ -68,6 +65,11 @@ namespace EXAMINATIONSYSTEM
             sqlConnection1.Close();
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
-   }
+}
 

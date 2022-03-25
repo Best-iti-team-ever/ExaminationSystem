@@ -20,9 +20,10 @@ namespace EXAMINATIONSYSTEM
 
         private void label1_Click(object sender, EventArgs e)//HOME PAGE
         {
-            Home HOME = new Home();
+            this.DialogResult = DialogResult.Cancel;
+            //Home HOME = new Home();
             this.Hide();
-            HOME.ShowDialog();
+            //HOME.ShowDialog();
             this.Close();
         }
 
@@ -34,7 +35,6 @@ namespace EXAMINATIONSYSTEM
         private void button1_Click(object sender, EventArgs e)//login button
         {
             this.DialogResult = DialogResult.OK;
-
         }
     }
 }

@@ -21,6 +21,10 @@ namespace EXAMINATIONSYSTEM
         {
             InitializeComponent();
             //Fill student Data
+
+            string connetionString = "Data Source=tcp:sqlproject.database.windows.net,1433;Initial Catalog = sqlproject;  Persist Security Info = False; User ID =sqlproject; Password =Project2022; MultipleActiveResultSets = False";
+            con = new SqlConnection(connetionString);
+
             con.Open();
             sqlDataAdapter1.Fill(dataSet1);
             con.Close();
@@ -32,8 +36,7 @@ namespace EXAMINATIONSYSTEM
             sqlDataAdapter2.Fill(dataSet2);
             sqlConnection1.Close();
 
-            string connetionString = "Data Source=tcp:sqlproject.database.windows.net,1433;Initial Catalog = sqlproject;  Persist Security Info = False; User ID =sqlproject; Password =Project2022; MultipleActiveResultSets = False";
-            con = new SqlConnection(connetionString);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)//SUBMIT
@@ -76,9 +79,9 @@ namespace EXAMINATIONSYSTEM
             textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = textBox7.Text = string.Empty;
             comboBox1.Text = string.Empty;
 
-            Loginform stdlg = new Loginform("Student");
+            //Loginform stdlg = new Loginform("Student");
             this.Hide();
-            stdlg.ShowDialog();
+            //stdlg.ShowDialog();
             this.Close();
 
         }
@@ -96,16 +99,16 @@ namespace EXAMINATIONSYSTEM
 
         private void label1_Click(object sender, EventArgs e)//Home
         {
-            Home HOME = new Home();
+            //Home HOME = new Home();
             this.Hide();
-            HOME.ShowDialog();
+            //HOME.ShowDialog();
             this.Close();
 
         }
 
         private void label4_Click(object sender, EventArgs e)//EXIT
         {
-            this.Close();
+            Environment.Exit(0);
         }
     }
 }
