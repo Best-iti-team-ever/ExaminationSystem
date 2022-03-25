@@ -31,115 +31,19 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RepeatedFrom));
-            this.txbAddress = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txbWebsite = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txbMail = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txbPhone = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txbFax = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txbID = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txbMobile = new System.Windows.Forms.TextBox();
             this.btnEdit = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txbName = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txbAddress
-            // 
-            this.txbAddress.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbAddress.Location = new System.Drawing.Point(165, 151);
-            this.txbAddress.Name = "txbAddress";
-            this.txbAddress.Size = new System.Drawing.Size(164, 27);
-            this.txbAddress.TabIndex = 35;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(12, 321);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(137, 21);
-            this.label8.TabIndex = 34;
-            this.label8.Text = "Supplier Website";
-            // 
-            // txbWebsite
-            // 
-            this.txbWebsite.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbWebsite.Location = new System.Drawing.Point(165, 318);
-            this.txbWebsite.Name = "txbWebsite";
-            this.txbWebsite.Size = new System.Drawing.Size(164, 27);
-            this.txbWebsite.TabIndex = 33;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(12, 288);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 21);
-            this.label9.TabIndex = 32;
-            this.label9.Text = "Supplier Mail";
-            // 
-            // txbMail
-            // 
-            this.txbMail.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMail.Location = new System.Drawing.Point(165, 285);
-            this.txbMail.Name = "txbMail";
-            this.txbMail.Size = new System.Drawing.Size(164, 27);
-            this.txbMail.TabIndex = 31;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 255);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 21);
-            this.label7.TabIndex = 30;
-            this.label7.Text = "Supplier Phone";
-            // 
-            // txbPhone
-            // 
-            this.txbPhone.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbPhone.Location = new System.Drawing.Point(165, 252);
-            this.txbPhone.Name = "txbPhone";
-            this.txbPhone.Size = new System.Drawing.Size(164, 27);
-            this.txbPhone.TabIndex = 29;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 222);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 21);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Supplier Fax";
-            // 
-            // txbFax
-            // 
-            this.txbFax.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbFax.Location = new System.Drawing.Point(165, 219);
-            this.txbFax.Name = "txbFax";
-            this.txbFax.Size = new System.Drawing.Size(164, 27);
-            this.txbFax.TabIndex = 27;
             // 
             // btnAdd
             // 
@@ -158,25 +62,6 @@
             this.btnAdd.TabIndex = 26;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 88);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 21);
-            this.label5.TabIndex = 25;
-            this.label5.Text = "Supplier ID";
-            // 
-            // txbID
-            // 
-            this.txbID.Cursor = System.Windows.Forms.Cursors.Default;
-            this.txbID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbID.Location = new System.Drawing.Point(165, 85);
-            this.txbID.Name = "txbID";
-            this.txbID.Size = new System.Drawing.Size(164, 27);
-            this.txbID.TabIndex = 24;
             // 
             // panel2
             // 
@@ -232,24 +117,6 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.TabStop = false;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 189);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 21);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "Supplier Mobile";
-            // 
-            // txbMobile
-            // 
-            this.txbMobile.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMobile.Location = new System.Drawing.Point(165, 186);
-            this.txbMobile.Name = "txbMobile";
-            this.txbMobile.Size = new System.Drawing.Size(164, 27);
-            this.txbMobile.TabIndex = 22;
-            // 
             // btnEdit
             // 
             this.btnEdit.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -268,56 +135,12 @@
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 154);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 21);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Supplier Address";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 121);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 21);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Supplier Name";
-            // 
-            // txbName
-            // 
-            this.txbName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbName.Location = new System.Drawing.Point(165, 118);
-            this.txbName.Name = "txbName";
-            this.txbName.Size = new System.Drawing.Size(164, 27);
-            this.txbName.TabIndex = 16;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.panel1.Controls.Add(this.txbAddress);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.txbWebsite);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.txbMail);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.txbPhone);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.txbFax);
             this.panel1.Controls.Add(this.btnAdd);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.txbID);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.txbMobile);
             this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Controls.Add(this.btnEdit);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.txbName);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -344,25 +167,25 @@
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(111, 90);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(129, 21);
+            this.label1.Location = new System.Drawing.Point(141, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 32);
+            this.label1.Size = new System.Drawing.Size(101, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "SUPPLIERS";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(18, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(105, 71);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.label1.Text = "Label1";
             // 
             // RepeatedFrom
             // 
@@ -383,27 +206,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txbAddress;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txbWebsite;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txbMail;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txbPhone;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txbFax;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txbID;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txbMobile;
         private System.Windows.Forms.Button btnEdit;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txbName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnDelete;

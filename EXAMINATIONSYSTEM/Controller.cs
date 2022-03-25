@@ -18,6 +18,10 @@ namespace EXAMINATIONSYSTEM
                     ChooseExam chooseExam = new ChooseExam(user.uid);
                     chooseExam.ShowDialog();
                     break;
+                case "EXAMINATIONSYSTEM.Admin":
+                    AdminHomeForm adminHomeForm = new AdminHomeForm();
+                    adminHomeForm.ShowDialog();
+                    break ;
             }
         }
     }
