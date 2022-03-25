@@ -18,9 +18,6 @@ namespace EXAMINATIONSYSTEM
             InitializeComponent();
             type = tuser;
             label5.Text = type + " Login";
-            sqlConnection2.Open();
-            sqlDataAdapter1.Fill(dataSet1);
-            sqlConnection2.Close();
 
         }
 

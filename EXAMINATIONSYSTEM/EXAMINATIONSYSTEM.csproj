@@ -53,6 +53,7 @@
     <Compile Include="ChooseExam.Designer.cs">
       <DependentUpon>ChooseExam.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controller.cs" />
     <Compile Include="Exam.cs">
       <SubType>Form</SubType>
     </Compile>

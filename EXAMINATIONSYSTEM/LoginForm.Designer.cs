@@ -29,7 +29,6 @@ namespace EXAMINATIONSYSTEM
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loginform));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,16 +36,9 @@ namespace EXAMINATIONSYSTEM
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.sqlSelectCommand1 = new System.Data.SqlClient.SqlCommand();
-            this.sqlConnection2 = new System.Data.SqlClient.SqlConnection();
-            this.sqlUpdateCommand1 = new System.Data.SqlClient.SqlCommand();
-            this.sqlDeleteCommand1 = new System.Data.SqlClient.SqlCommand();
-            this.sqlDataAdapter1 = new System.Data.SqlClient.SqlDataAdapter();
-            this.dataSet1 = new System.Data.DataSet();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,50 +121,6 @@ namespace EXAMINATIONSYSTEM
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // sqlSelectCommand1
-            // 
-            this.sqlSelectCommand1.CommandText = "SELECT        Std_ID, Std_Password\r\nFROM            Student";
-            this.sqlSelectCommand1.Connection = this.sqlConnection2;
-            // 
-            // sqlConnection2
-            // 
-            this.sqlConnection2.ConnectionString = "Data Source=sqlproject.database.windows.net;Initial Catalog=sqlproject;Persist Se" +
-    "curity Info=True;User ID=sqlproject;Password=Project2022";
-            this.sqlConnection2.FireInfoMessageEventOnUserErrors = false;
-            // 
-            // sqlUpdateCommand1
-            // 
-            this.sqlUpdateCommand1.CommandText = resources.GetString("sqlUpdateCommand1.CommandText");
-            this.sqlUpdateCommand1.Connection = this.sqlConnection2;
-            this.sqlUpdateCommand1.Parameters.AddRange(new System.Data.SqlClient.SqlParameter[] {
-            new System.Data.SqlClient.SqlParameter("@Std_Password", System.Data.SqlDbType.NVarChar, 0, "Std_Password"),
-            new System.Data.SqlClient.SqlParameter("@Original_Std_ID", System.Data.SqlDbType.Int, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Std_ID", System.Data.DataRowVersion.Original, null),
-            new System.Data.SqlClient.SqlParameter("@Original_Std_Password", System.Data.SqlDbType.NVarChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Std_Password", System.Data.DataRowVersion.Original, null),
-            new System.Data.SqlClient.SqlParameter("@Std_ID", System.Data.SqlDbType.Int, 4, "Std_ID")});
-            // 
-            // sqlDeleteCommand1
-            // 
-            this.sqlDeleteCommand1.CommandText = "DELETE FROM [Student] WHERE (([Std_ID] = @Original_Std_ID) AND ([Std_Password] = " +
-    "@Original_Std_Password))";
-            this.sqlDeleteCommand1.Connection = this.sqlConnection2;
-            this.sqlDeleteCommand1.Parameters.AddRange(new System.Data.SqlClient.SqlParameter[] {
-            new System.Data.SqlClient.SqlParameter("@Original_Std_ID", System.Data.SqlDbType.Int, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Std_ID", System.Data.DataRowVersion.Original, null),
-            new System.Data.SqlClient.SqlParameter("@Original_Std_Password", System.Data.SqlDbType.NVarChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Std_Password", System.Data.DataRowVersion.Original, null)});
-            // 
-            // sqlDataAdapter1
-            // 
-            this.sqlDataAdapter1.DeleteCommand = this.sqlDeleteCommand1;
-            this.sqlDataAdapter1.SelectCommand = this.sqlSelectCommand1;
-            this.sqlDataAdapter1.TableMappings.AddRange(new System.Data.Common.DataTableMapping[] {
-            new System.Data.Common.DataTableMapping("Table", "Student", new System.Data.Common.DataColumnMapping[] {
-                        new System.Data.Common.DataColumnMapping("Std_ID", "Std_ID"),
-                        new System.Data.Common.DataColumnMapping("Std_Password", "Std_Password")})});
-            this.sqlDataAdapter1.UpdateCommand = this.sqlUpdateCommand1;
-            // 
-            // dataSet1
-            // 
-            this.dataSet1.DataSetName = "NewDataSet";
-            // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -219,10 +167,10 @@ namespace EXAMINATIONSYSTEM
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Loginform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentLogin";
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -239,12 +187,6 @@ namespace EXAMINATIONSYSTEM
         public System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
-        private System.Data.SqlClient.SqlCommand sqlSelectCommand1;
-        private System.Data.SqlClient.SqlConnection sqlConnection2;
-        private System.Data.SqlClient.SqlCommand sqlUpdateCommand1;
-        private System.Data.SqlClient.SqlCommand sqlDeleteCommand1;
-        private System.Data.SqlClient.SqlDataAdapter sqlDataAdapter1;
-        private System.Data.DataSet dataSet1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
     }
