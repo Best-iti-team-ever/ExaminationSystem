@@ -44,7 +44,7 @@ namespace EXAMINATIONSYSTEM
                 {
                     instructor.uid = int.Parse(dReader[0].ToString());
                     instructor.name = dReader[1].ToString();
-                    instructor.Mobile = float.Parse(dReader[2].ToString());
+                    instructor.Mobile = dReader[2].ToString();
                     instructor.Email = dReader[3].ToString();
                     instructor.Degree = dReader[5].ToString();
 

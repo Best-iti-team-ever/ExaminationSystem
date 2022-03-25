@@ -40,7 +40,7 @@ namespace EXAMINATIONSYSTEM
                 {
                     admin.uid = int.Parse(dReader[0].ToString());
                     admin.name = dReader[1].ToString();
-                    admin.Mobile = float.Parse(dReader[2].ToString());
+                    admin.Mobile = dReader[2].ToString();
 
                     //ChooseExam CH = new ChooseExam(uid);
                     //CH.ShowDialog();

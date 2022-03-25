@@ -14,7 +14,9 @@ namespace EXAMINATIONSYSTEM
         SqlConnection con;
         public String Address { get; set; }
         public int gradyear { get; set; }
-        public string deptname { get; set; }
+        public int deptid { get; set; }
+
+        public String deptname { get; set; }
 
         public static User InitFromSQL(int id, string pass)
         {
@@ -43,9 +45,10 @@ namespace EXAMINATIONSYSTEM
                 {                  
                     student.uid = int.Parse(dReader[0].ToString());
                     student.name = dReader[1].ToString() + " " + dReader[2].ToString();
-                    student.Mobile = float.Parse(dReader[3].ToString());
+                    student.Mobile = dReader[3].ToString();
                     student.Address = dReader[4].ToString();
                     student.gradyear = int.Parse(dReader[5].ToString());
+                    student.deptid = int.Parse(dReader[6].ToString());
                     student.deptname = dReader[8].ToString();
                 }
                 dReader.Close();
