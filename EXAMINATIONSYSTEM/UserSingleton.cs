@@ -11,7 +11,6 @@ namespace EXAMINATIONSYSTEM
     {
         public User user { get; set; }
         public string connectionString { get; set; } = "Data Source=tcp:sqlproject.database.windows.net,1433;Initial Catalog = sqlproject;  Persist Security Info = False; User ID =sqlproject; Password =Project2022; MultipleActiveResultSets = False";
-
         static UserSingleton instance = null;
         private UserSingleton()
         {

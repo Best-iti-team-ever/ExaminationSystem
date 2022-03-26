@@ -26,8 +26,8 @@ namespace EXAMINATIONSYSTEM
                 SqlParameter param;
                 param = cmd.Parameters.Add(SelectParamName, SqlDbType.Int);
                 param.Value = SelectByParam;
-
             }
+
 
             con.Open();
             cmd.ExecuteNonQuery();

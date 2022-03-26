@@ -80,6 +80,24 @@
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Instructor.cs" />
+    <Compile Include="InstructorControlCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorControlCourse.Designer.cs">
+      <DependentUpon>InstructorControlCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstructorDataUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorDataUpdate.Designer.cs">
+      <DependentUpon>InstructorDataUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstructorHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorHomeForm.Designer.cs">
+      <DependentUpon>InstructorHomeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Instructorlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +153,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstructorControlCourse.resx">
+      <DependentUpon>InstructorControlCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstructorDataUpdate.resx">
+      <DependentUpon>InstructorDataUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstructorHomeForm.resx">
+      <DependentUpon>InstructorHomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Instructorlogin.resx">
       <DependentUpon>Instructorlogin.cs</DependentUpon>

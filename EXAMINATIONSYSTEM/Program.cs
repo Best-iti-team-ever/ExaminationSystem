@@ -17,6 +17,7 @@ namespace EXAMINATIONSYSTEM
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Home());
+           // MessageBox.Show("123".ToHash());
             Controller controller = new Controller();
             controller.run();
         }
