@@ -31,14 +31,14 @@ namespace EXAMINATIONSYSTEM
         {
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,10 +59,10 @@ namespace EXAMINATIONSYSTEM
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.textBox5);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.textBox1);
@@ -73,17 +73,17 @@ namespace EXAMINATIONSYSTEM
             this.panel1.Controls.SetChildIndex(this.textBox2, 0);
             this.panel1.Controls.SetChildIndex(this.textBox4, 0);
             this.panel1.Controls.SetChildIndex(this.textBox1, 0);
-            this.panel1.Controls.SetChildIndex(this.label1, 0);
             this.panel1.Controls.SetChildIndex(this.label6, 0);
-            this.panel1.Controls.SetChildIndex(this.pictureBox1, 0);
             this.panel1.Controls.SetChildIndex(this.label3, 0);
-            this.panel1.Controls.SetChildIndex(this.btnEdit, 0);
-            this.panel1.Controls.SetChildIndex(this.label5, 0);
-            this.panel1.Controls.SetChildIndex(this.btnDelete, 0);
             this.panel1.Controls.SetChildIndex(this.label7, 0);
-            this.panel1.Controls.SetChildIndex(this.btnAdd, 0);
             this.panel1.Controls.SetChildIndex(this.label8, 0);
-            this.panel1.Controls.SetChildIndex(this.comboBox1, 0);
+            this.panel1.Controls.SetChildIndex(this.textBox5, 0);
+            this.panel1.Controls.SetChildIndex(this.label9, 0);
+            this.panel1.Controls.SetChildIndex(this.label1, 0);
+            this.panel1.Controls.SetChildIndex(this.pictureBox1, 0);
+            this.panel1.Controls.SetChildIndex(this.btnEdit, 0);
+            this.panel1.Controls.SetChildIndex(this.btnDelete, 0);
+            this.panel1.Controls.SetChildIndex(this.btnAdd, 0);
             // 
             // btnDelete
             // 
@@ -112,21 +112,11 @@ namespace EXAMINATIONSYSTEM
             this.label7.TabIndex = 64;
             this.label7.Text = "Name :";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(34, 281);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 17);
-            this.label5.TabIndex = 63;
-            this.label5.Text = "Dept_ID  :";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 327);
+            this.label3.Location = new System.Drawing.Point(12, 291);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 17);
             this.label3.TabIndex = 62;
@@ -144,7 +134,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(142, 326);
+            this.textBox4.Location = new System.Drawing.Point(142, 290);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 59;
@@ -170,19 +160,29 @@ namespace EXAMINATIONSYSTEM
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 56;
             // 
-            // comboBox1
+            // label9
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 280);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 66;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(23, 341);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(87, 17);
+            this.label9.TabIndex = 68;
+            this.label9.Text = "Max. takes  :";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(142, 341);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 67;
             // 
             // InstructorControlCourse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InstructorControlCourse";
             this.Text = "InstructorControlCourse";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -196,13 +196,13 @@ namespace EXAMINATIONSYSTEM
 
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

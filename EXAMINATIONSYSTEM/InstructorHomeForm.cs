@@ -23,5 +23,12 @@ namespace EXAMINATIONSYSTEM
             insupdate.ShowDialog();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            InstructorControlCourse course = new InstructorControlCourse();
+            course.ShowDialog();
+            this.Hide();
+        }
     }
 }

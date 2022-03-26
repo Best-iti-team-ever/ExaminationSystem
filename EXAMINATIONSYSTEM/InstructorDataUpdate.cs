@@ -51,7 +51,6 @@ namespace EXAMINATIONSYSTEM
             else
             {
                 cmd = new SqlCommand("sp_updateInstructor", con);
-
                 param = cmd.Parameters.Add("@ins_passowrd", SqlDbType.VarChar, 64);
                 param.Value = textBox5.Text.ToHash();
             }

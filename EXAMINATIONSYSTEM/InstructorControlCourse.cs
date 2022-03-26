@@ -18,20 +18,23 @@ namespace EXAMINATIONSYSTEM
         {
             btnAdd.Hide();
             btnDelete.Hide();
+            label1.Text = "Courses Data";
             InitializeComponent();
-            //this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            BindDatatoDataGrid("sp_selectcoursesforinstructor", UserSingleton.getinstance().user.uid);
-            con = new SqlConnection(UserSingleton.getinstance().connectionString);
-            con.Open();
-            SqlCommand cmd = new SqlCommand("sp_selectalldepartments", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-            SqlDataReader dReader = cmd.ExecuteReader();
-            while (dReader.Read())
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            BindDatatoDataGrid("sp_selectcoursesforinstructor", UserSingleton.getinstance().user.uid,"@ins_id");
+        }
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1)
             {
-                comboBox1.Items.Add(dReader[0].ToString());
+                DataGridViewRow dgv = dataGridView1.Rows[e.RowIndex];
+                textBox1.Text = dgv.Cells[1].Value.ToString();
+                textBox2.Text = dgv.Cells[2].Value.ToString();
+                textBox3.Text = dgv.Cells[3].Value.ToString();
+                textBox4.Text = dgv.Cells[4].Value.ToString();
+                textBox5.Text = dgv.Cells[5].Value.ToString();
             }
-            dReader.Close();
-            con.Close();
+
         }
     }
 }

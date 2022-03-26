@@ -34,6 +34,23 @@ D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorHomeForm.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlCourse.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorDataUpdate.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
+F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
