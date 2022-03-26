@@ -22,6 +22,10 @@ namespace EXAMINATIONSYSTEM
                     AdminHomeForm adminHomeForm = new AdminHomeForm();
                     adminHomeForm.ShowDialog();
                     break ;
+                case "EXAMINATIONSYSTEM.Instructor":
+                    InstructorHomeForm insHomeForm = new InstructorHomeForm();
+                    insHomeForm.ShowDialog();
+                    break;
             }
         }
     }

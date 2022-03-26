@@ -61,6 +61,7 @@ namespace EXAMINATIONSYSTEM
             this.btnEdit.FlatAppearance.BorderSize = 2;
             this.btnEdit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click_1);
             // 
             // panel1
             // 
@@ -107,6 +108,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // comboBox1
             // 
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(133, 348);
             this.comboBox1.Name = "comboBox1";

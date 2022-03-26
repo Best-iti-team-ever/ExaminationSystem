@@ -16,6 +16,7 @@ namespace EXAMINATIONSYSTEM
         public Home()
         {
             InitializeComponent();
+            //textBox1.Text = "123".ToHash();
         }
 
         private void label1_Click(object sender, EventArgs e)//student
