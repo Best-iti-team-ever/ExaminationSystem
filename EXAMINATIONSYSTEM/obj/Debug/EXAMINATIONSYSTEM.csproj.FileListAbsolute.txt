@@ -54,3 +54,24 @@ F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\ob
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlIns.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb

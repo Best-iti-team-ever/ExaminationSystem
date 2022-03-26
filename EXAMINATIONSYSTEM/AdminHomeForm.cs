@@ -36,6 +36,8 @@ namespace EXAMINATIONSYSTEM
 
         private void Instructor_Click(object sender, EventArgs e)
         {
+            AdminControlIns ins = new AdminControlIns();
+            ins.ShowDialog();
 
         }
 
