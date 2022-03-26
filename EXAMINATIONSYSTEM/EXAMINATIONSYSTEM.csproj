@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
+    <Compile Include="AdminControlAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlAdmin.Designer.cs">
+      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminControlIns.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     <Compile Include="ViewCoursesForDepartmentForm.Designer.cs">
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminControlAdmin.resx">
+      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminControlIns.resx">
       <DependentUpon>AdminControlIns.cs</DependentUpon>
     </EmbeddedResource>

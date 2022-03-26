@@ -138,5 +138,7 @@ namespace EXAMINATIONSYSTEM
             textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = string.Empty;
         
         }
+
+       
     }
 }

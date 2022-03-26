@@ -19,7 +19,8 @@ namespace EXAMINATIONSYSTEM
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            var adminCtrlAdmins = new AdminControlAdmin();
+            adminCtrlAdmins.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)
