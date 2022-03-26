@@ -54,3 +54,9 @@ F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\ob
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlCourse.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorDataUpdate.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorHomeForm.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources

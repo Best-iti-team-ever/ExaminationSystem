@@ -125,6 +125,18 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentControlCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentControlCourse.Designer.cs">
+      <DependentUpon>StudentControlCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentHomeForm.Designer.cs">
+      <DependentUpon>StudentHomeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateDepartmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +196,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentControlCourse.resx">
+      <DependentUpon>StudentControlCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentHomeForm.resx">
+      <DependentUpon>StudentHomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateDepartmentForm.resx">
       <DependentUpon>UpdateDepartmentForm.cs</DependentUpon>

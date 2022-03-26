@@ -36,5 +36,44 @@ namespace EXAMINATIONSYSTEM
             }
 
         }
+
+        private void btnEdit_Click_1(object sender, EventArgs e)
+        {
+            SqlParameter param;
+            SqlCommand cmd;
+            con = new SqlConnection(UserSingleton.getinstance().connectionString);
+
+
+           
+            cmd = new SqlCommand("sp_updatecourse", con);
+          
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            param = cmd.Parameters.Add("@id", SqlDbType.Int);
+            param.Value = int.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+            param = cmd.Parameters.Add("@name", SqlDbType.VarChar, 50);
+            param.Value = textBox1.Text;
+
+            param = cmd.Parameters.Add("@h", SqlDbType.VarChar, 15);
+            param.Value = textBox2.Text;
+
+
+            param = cmd.Parameters.Add("@split", SqlDbType.NVarChar, 10);
+            param.Value = textBox3.Text;
+
+            param = cmd.Parameters.Add("@passgrade", SqlDbType.Int);
+            param.Value = textBox4.Text;
+
+            param = cmd.Parameters.Add("@maxtake", SqlDbType.Int);
+            param.Value = textBox4.Text;
+
+
+            con.Open();
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Course Data is Updated ");
+            con.Close();
+            BindDatatoDataGrid("sp_selectcoursesforinstructor", UserSingleton.getinstance().user.uid, "@ins_id");
+            textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = string.Empty;
+        }
     }
 }
