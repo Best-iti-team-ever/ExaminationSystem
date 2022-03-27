@@ -1,6 +1,6 @@
 ﻿namespace EXAMINATIONSYSTEM
 {
-    partial class AdminControlAdmin
+    partial class AdminControlDept
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lblPhone = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.txbName = new System.Windows.Forms.TextBox();
-            this.lblPhone = new System.Windows.Forms.Label();
-            this.txbPhone = new System.Windows.Forms.TextBox();
-            this.lblPass = new System.Windows.Forms.Label();
-            this.txbPass = new System.Windows.Forms.TextBox();
+            this.cbxMangerID = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -54,10 +52,8 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.lblPass);
-            this.panel1.Controls.Add(this.txbPass);
+            this.panel1.Controls.Add(this.cbxMangerID);
             this.panel1.Controls.Add(this.lblPhone);
-            this.panel1.Controls.Add(this.txbPhone);
             this.panel1.Controls.Add(this.lblName);
             this.panel1.Controls.Add(this.txbName);
             this.panel1.Controls.SetChildIndex(this.label1, 0);
@@ -67,10 +63,8 @@
             this.panel1.Controls.SetChildIndex(this.btnAdd, 0);
             this.panel1.Controls.SetChildIndex(this.txbName, 0);
             this.panel1.Controls.SetChildIndex(this.lblName, 0);
-            this.panel1.Controls.SetChildIndex(this.txbPhone, 0);
             this.panel1.Controls.SetChildIndex(this.lblPhone, 0);
-            this.panel1.Controls.SetChildIndex(this.txbPass, 0);
-            this.panel1.Controls.SetChildIndex(this.lblPass, 0);
+            this.panel1.Controls.SetChildIndex(this.cbxMangerID, 0);
             // 
             // btnDelete
             // 
@@ -81,70 +75,53 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(111, 32);
-            this.label1.Text = "Admins";
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(28, 155);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(49, 17);
-            this.lblName.TabIndex = 50;
-            this.lblName.Text = "Name:";
-            // 
-            // txbName
-            // 
-            this.txbName.Location = new System.Drawing.Point(114, 154);
-            this.txbName.Name = "txbName";
-            this.txbName.Size = new System.Drawing.Size(122, 20);
-            this.txbName.TabIndex = 49;
+            this.label1.Size = new System.Drawing.Size(181, 32);
+            this.label1.Text = "Departments";
             // 
             // lblPhone
             // 
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhone.Location = new System.Drawing.Point(26, 211);
+            this.lblPhone.Location = new System.Drawing.Point(9, 210);
             this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(53, 17);
-            this.lblPhone.TabIndex = 52;
-            this.lblPhone.Text = "Phone:";
+            this.lblPhone.Size = new System.Drawing.Size(101, 17);
+            this.lblPhone.TabIndex = 58;
+            this.lblPhone.Text = "Manger Name:";
             // 
-            // txbPhone
+            // lblName
             // 
-            this.txbPhone.Location = new System.Drawing.Point(114, 210);
-            this.txbPhone.Name = "txbPhone";
-            this.txbPhone.Size = new System.Drawing.Size(122, 20);
-            this.txbPhone.TabIndex = 51;
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(35, 154);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(49, 17);
+            this.lblName.TabIndex = 56;
+            this.lblName.Text = "Name:";
             // 
-            // lblPass
+            // txbName
             // 
-            this.lblPass.AutoSize = true;
-            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPass.Location = new System.Drawing.Point(16, 267);
-            this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(73, 17);
-            this.lblPass.TabIndex = 54;
-            this.lblPass.Text = "Password:";
+            this.txbName.Location = new System.Drawing.Point(116, 154);
+            this.txbName.Name = "txbName";
+            this.txbName.Size = new System.Drawing.Size(122, 20);
+            this.txbName.TabIndex = 55;
             // 
-            // txbPass
+            // cbxMangerID
             // 
-            this.txbPass.Location = new System.Drawing.Point(114, 266);
-            this.txbPass.Name = "txbPass";
-            this.txbPass.Size = new System.Drawing.Size(122, 20);
-            this.txbPass.TabIndex = 53;
-            this.txbPass.UseSystemPasswordChar = true;
+            this.cbxMangerID.FormattingEnabled = true;
+            this.cbxMangerID.Location = new System.Drawing.Point(117, 210);
+            this.cbxMangerID.Name = "cbxMangerID";
+            this.cbxMangerID.Size = new System.Drawing.Size(122, 21);
+            this.cbxMangerID.TabIndex = 59;
             // 
-            // AdminControlAdmin
+            // AminControlDept
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AdminControlAdmin";
+            this.Name = "AminControlDept";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AdminControlAdmin";
+            this.Text = "AminControlDept";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -153,12 +130,9 @@
         }
 
         #endregion
-
+        private System.Windows.Forms.Label lblPhone;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.TextBox txbName;
-        private System.Windows.Forms.Label lblPhone;
-        private System.Windows.Forms.TextBox txbPhone;
-        private System.Windows.Forms.Label lblPass;
-        private System.Windows.Forms.TextBox txbPass;
+        private System.Windows.Forms.ComboBox cbxMangerID;
     }
 }

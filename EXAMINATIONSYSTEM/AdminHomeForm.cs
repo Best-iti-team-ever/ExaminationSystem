@@ -31,8 +31,8 @@ namespace EXAMINATIONSYSTEM
 
         private void label3_Click(object sender, EventArgs e)
         {
-            UpdateDepartmentForm up = new UpdateDepartmentForm(3);
-            up.ShowDialog();
+            var ad = new AdminControlDept();
+            ad.ShowDialog();
         }
 
         private void Instructor_Click(object sender, EventArgs e)

@@ -22,8 +22,7 @@ namespace EXAMINATIONSYSTEM
             BindDatatoDataGrid("sp_selectAllAdmins");
             con = new SqlConnection(UserSingleton.getinstance().connectionString);
 
-            con.Open();
-            con.Close();
+            
         }
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -62,7 +61,7 @@ namespace EXAMINATIONSYSTEM
             param.Value = txbPass.Text.Trim().ToHash();
 
             con.Open();
-            cmd.ExecuteNonQuery();
+            //cmd.ExecuteNonQuery();
             SqlDataReader dReader = cmd.ExecuteReader();
             if (dReader.Read())
             {
@@ -86,8 +85,10 @@ namespace EXAMINATIONSYSTEM
             param = cmd.Parameters.Add("@id", SqlDbType.Int);
             param.Value = int.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
             con.Open();
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("Admin Data is deleted from your data! ");
+            if (cmd.ExecuteNonQuery() == 1)
+            {
+                MessageBox.Show("Admin Data is deleted from your data! ");
+            }
             con.Close();
             BindDatatoDataGrid("sp_selectAllAdmins");
             txbName.Text = txbPass.Text = txbPhone.Text = string.Empty;

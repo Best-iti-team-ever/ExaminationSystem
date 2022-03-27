@@ -71,6 +71,12 @@
     <Compile Include="AdminHomeForm.Designer.cs">
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AminControlDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AminControlDept.Designer.cs">
+      <DependentUpon>AminControlDept.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChooseExam.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminHomeForm.resx">
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AminControlDept.resx">
+      <DependentUpon>AminControlDept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChooseExam.resx">
       <DependentUpon>ChooseExam.cs</DependentUpon>
