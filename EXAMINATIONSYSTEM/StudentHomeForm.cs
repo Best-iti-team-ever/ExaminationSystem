@@ -10,39 +10,30 @@ using System.Windows.Forms;
 
 namespace EXAMINATIONSYSTEM
 {
-    public partial class InstructorHomeForm : Form
+    public partial class StudentHomeForm : Form
     {
-        public InstructorHomeForm()
+        public StudentHomeForm()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            InstructorDataUpdate insupdate = new InstructorDataUpdate();
-            insupdate.ShowDialog();
-            this.Hide();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            InstructorControlCourse course = new InstructorControlCourse();
-            course.ShowDialog();
-            this.Hide();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
             Home home = new Home();
             home.ShowDialog();
-            this.Close();
-
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            StudentControlCourse studcourse = new StudentControlCourse();
+            studcourse.ShowDialog();
+            this.Hide();
         }
     }
 }

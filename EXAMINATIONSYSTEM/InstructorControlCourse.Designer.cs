@@ -56,6 +56,7 @@ namespace EXAMINATIONSYSTEM
             this.btnEdit.FlatAppearance.BorderSize = 2;
             this.btnEdit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click_1);
             // 
             // panel1
             // 

@@ -15,8 +15,8 @@ namespace EXAMINATIONSYSTEM
             {
                 case "EXAMINATIONSYSTEM.Student":
                     //"EXAMINATIONSYSTEM.Student":
-                    ChooseExam chooseExam = new ChooseExam(user.uid);
-                    chooseExam.ShowDialog();
+                    StudentHomeForm studhome = new StudentHomeForm();
+                    studhome.ShowDialog();
                     break;
                 case "EXAMINATIONSYSTEM.Admin":
                     AdminHomeForm adminHomeForm = new AdminHomeForm();
