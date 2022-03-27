@@ -33,7 +33,6 @@ C:\Users\Youssef\source\repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSY
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
@@ -60,3 +59,5 @@ D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlCourse.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache

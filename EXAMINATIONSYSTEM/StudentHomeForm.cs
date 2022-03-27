@@ -21,12 +21,19 @@ namespace EXAMINATIONSYSTEM
         {
             Home home = new Home();
             home.ShowDialog();
-            this.Close();
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            StudentControlCourse studcourse = new StudentControlCourse();
+            studcourse.ShowDialog();
+            this.Hide();
         }
     }
 }

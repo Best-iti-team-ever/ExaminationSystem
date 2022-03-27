@@ -22,7 +22,7 @@ namespace EXAMINATIONSYSTEM
         }
         private void button1_Click(object sender, EventArgs e)//Start Exam
         {
-            Exam ex = new Exam(sid,cid);
+            Exam ex = new Exam(cid);
             this.Hide();
             ex.ShowDialog();
             this.Close();

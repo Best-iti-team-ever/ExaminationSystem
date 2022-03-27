@@ -42,9 +42,6 @@ namespace EXAMINATIONSYSTEM
             SqlParameter param;
             SqlCommand cmd;
             con = new SqlConnection(UserSingleton.getinstance().connectionString);
-
-
-           
             cmd = new SqlCommand("sp_updatecourse", con);
           
             cmd.CommandType = CommandType.StoredProcedure;
@@ -57,10 +54,19 @@ namespace EXAMINATIONSYSTEM
             param = cmd.Parameters.Add("@h", SqlDbType.VarChar, 15);
             param.Value = textBox2.Text;
 
+            if(textBox3.Text==string.Empty)
+            {
+                param = cmd.Parameters.Add("@split", SqlDbType.NVarChar, 10);
+                param.Value = null;
 
-            param = cmd.Parameters.Add("@split", SqlDbType.NVarChar, 10);
-            param.Value = textBox3.Text;
+            }
+            else
+            {
+                param = cmd.Parameters.Add("@split", SqlDbType.NVarChar, 10);
+                param.Value = textBox3.Text;
 
+            }
+       
             param = cmd.Parameters.Add("@passgrade", SqlDbType.Int);
             param.Value = textBox4.Text;
 
