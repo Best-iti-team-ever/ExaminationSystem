@@ -107,46 +107,50 @@ namespace EXAMINATIONSYSTEM
             // FName
             // 
             this.FName.AutoSize = true;
-            this.FName.Location = new System.Drawing.Point(34, 116);
+            this.FName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.FName.Location = new System.Drawing.Point(20, 154);
             this.FName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.FName.Name = "FName";
-            this.FName.Size = new System.Drawing.Size(57, 13);
+            this.FName.Size = new System.Drawing.Size(75, 17);
             this.FName.TabIndex = 27;
             this.FName.Text = "Full Name:";
             // 
             // Phone
             // 
             this.Phone.AutoSize = true;
-            this.Phone.Location = new System.Drawing.Point(34, 176);
+            this.Phone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Phone.Location = new System.Drawing.Point(31, 214);
             this.Phone.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Phone.Name = "Phone";
-            this.Phone.Size = new System.Drawing.Size(41, 13);
+            this.Phone.Size = new System.Drawing.Size(53, 17);
             this.Phone.TabIndex = 29;
             this.Phone.Text = "Phone:";
             // 
             // Email
             // 
             this.Email.AutoSize = true;
-            this.Email.Location = new System.Drawing.Point(34, 226);
+            this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Email.Location = new System.Drawing.Point(34, 264);
             this.Email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(35, 13);
+            this.Email.Size = new System.Drawing.Size(46, 17);
             this.Email.TabIndex = 30;
             this.Email.Text = "Email:";
             // 
             // Degree
             // 
             this.Degree.AutoSize = true;
-            this.Degree.Location = new System.Drawing.Point(34, 285);
+            this.Degree.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Degree.Location = new System.Drawing.Point(28, 323);
             this.Degree.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Degree.Name = "Degree";
-            this.Degree.Size = new System.Drawing.Size(45, 13);
+            this.Degree.Size = new System.Drawing.Size(59, 17);
             this.Degree.TabIndex = 31;
             this.Degree.Text = "Degree:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 112);
+            this.textBox1.Location = new System.Drawing.Point(123, 151);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -154,7 +158,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(114, 222);
+            this.textBox3.Location = new System.Drawing.Point(123, 261);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
@@ -162,7 +166,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(114, 285);
+            this.textBox4.Location = new System.Drawing.Point(123, 324);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
@@ -170,7 +174,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(114, 343);
+            this.textBox5.Location = new System.Drawing.Point(123, 382);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
@@ -179,16 +183,17 @@ namespace EXAMINATIONSYSTEM
             // Password
             // 
             this.Password.AutoSize = true;
-            this.Password.Location = new System.Drawing.Point(34, 347);
+            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Password.Location = new System.Drawing.Point(21, 385);
             this.Password.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(56, 13);
+            this.Password.Size = new System.Drawing.Size(73, 17);
             this.Password.TabIndex = 38;
             this.Password.Text = "Password:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 171);
+            this.textBox2.Location = new System.Drawing.Point(123, 210);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);

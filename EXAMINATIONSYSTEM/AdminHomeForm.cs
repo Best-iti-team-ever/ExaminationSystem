@@ -51,5 +51,11 @@ namespace EXAMINATIONSYSTEM
         {
             Environment.Exit(0);
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            AdminControlCourse ins = new AdminControlCourse();
+            ins.ShowDialog();
+        }
     }
 }

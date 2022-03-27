@@ -99,3 +99,4 @@ C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATION
 C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
 C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
 C:\Users\AboKhaled\source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlDept.resources
+C:\Users\AboKhaled\source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlCourse.resources

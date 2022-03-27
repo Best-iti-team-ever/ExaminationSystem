@@ -53,6 +53,12 @@
     <Compile Include="AdminControlAdmin.Designer.cs">
       <DependentUpon>AdminControlAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminControlCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlCourse.Designer.cs">
+      <DependentUpon>AdminControlCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminControlIns.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </Compile>
     <EmbeddedResource Include="AdminControlAdmin.resx">
       <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlCourse.resx">
+      <DependentUpon>AdminControlCourse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminControlIns.resx">
       <DependentUpon>AdminControlIns.cs</DependentUpon>
