@@ -139,6 +139,30 @@
     <Compile Include="ViewCoursesForDepartmentForm.Designer.cs">
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="viewCoursesPerInstructorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewCoursesPerInstructorForm.Designer.cs">
+      <DependentUpon>viewCoursesPerInstructorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInstructioresForDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewInstructioresForDepartmentForm.Designer.cs">
+      <DependentUpon>ViewInstructioresForDepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInstructorsPerCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewInstructorsPerCourseForm.Designer.cs">
+      <DependentUpon>ViewInstructorsPerCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewQuestionsInCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewQuestionsInCourseForm.Designer.cs">
+      <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminControlStud.resx">
       <DependentUpon>AdminControlStud.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +214,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ViewCoursesForDepartmentForm.resx">
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewCoursesPerInstructorForm.resx">
+      <DependentUpon>viewCoursesPerInstructorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInstructioresForDepartmentForm.resx">
+      <DependentUpon>ViewInstructioresForDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInstructorsPerCourseForm.resx">
+      <DependentUpon>ViewInstructorsPerCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewQuestionsInCourseForm.resx">
+      <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

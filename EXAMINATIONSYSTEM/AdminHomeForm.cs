@@ -36,7 +36,8 @@ namespace EXAMINATIONSYSTEM
 
         private void Instructor_Click(object sender, EventArgs e)
         {
-
+            ViewQuestionsInCourseForm questions = new ViewQuestionsInCourseForm(1);
+            questions.ShowDialog();
         }
 
         private void label5_Click(object sender, EventArgs e)
