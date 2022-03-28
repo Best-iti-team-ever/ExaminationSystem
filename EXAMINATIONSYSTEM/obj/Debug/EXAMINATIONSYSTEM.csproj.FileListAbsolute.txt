@@ -60,4 +60,6 @@ D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlCourse.resources
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlData.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
+D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlTopic.resources

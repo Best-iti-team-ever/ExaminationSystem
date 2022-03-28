@@ -36,10 +36,8 @@ namespace EXAMINATIONSYSTEM
 
             label1.Text = dt.Rows[row][1].ToString();
             //To check if question is mcq or not
-            if (dt.Rows[row][3].ToString() == "True" || dt.Rows[row][3].ToString() == "False")
+            if (! bool.Parse(dt.Rows[row][4].ToString()))
             {
-              
-              
                 radioButton3.Hide();
                 radioButton4.Hide();
                 radioButton1.Name = dt.Rows[ans][2].ToString();
@@ -50,8 +48,6 @@ namespace EXAMINATIONSYSTEM
                 radioButton2.Text = dt.Rows[ans][3].ToString();
                 ans++;
                 row++;
-                //MessageBox.Show($"row={row},ans={ans}");
-
             }
             else
             {
@@ -69,18 +65,19 @@ namespace EXAMINATIONSYSTEM
                 radioButton3.Text = dt.Rows[ans][3].ToString();
                 ans++;
                 row++;
-
+                
                 radioButton4.Name = dt.Rows[ans][2].ToString();
                 radioButton4.Text = dt.Rows[ans][3].ToString();
                 ans++;
                 row++;
+  
+               
             }
             q++;
             foreach (RadioButton r in groupBox1.Controls.OfType<RadioButton>())
             {
                 //MessageBox.Show(dt.Rows[i][6].ToString());
                 r.Checked = false;
-
             }
             checkradiobutton(row-1);
         }
@@ -114,26 +111,32 @@ namespace EXAMINATIONSYSTEM
 
         private void button1_Click(object sender, EventArgs e)//Next
         {
-            con = new SqlConnection(UserSingleton.getinstance().connectionString);
-            SqlCommand cmd = new SqlCommand("submit_Answer", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-            SqlParameter param;
-
-
-            param = cmd.Parameters.Add("@std_id", SqlDbType.Int);
-            param.Value = UserSingleton.getinstance().user.uid;
-
-            param = cmd.Parameters.Add("@crs_id", SqlDbType.Int);
-            param.Value = cid;
-
-            param = cmd.Parameters.Add("@qust_id", SqlDbType.VarChar);
-            param.Value = int.Parse(dt.Rows[row-1][0].ToString());
-
             //get sudent answer
             RadioButton checkedbutton = SetDTgetChecked();
-            param = cmd.Parameters.Add("@answer_id", SqlDbType.Int);
-            param.Value = int.Parse(checkedbutton.Name.ToString());
-            dt.Rows[row - 1][6] = int.Parse(checkedbutton.Name.ToString());
+            if (checkedbutton!=null)
+            {
+                con = new SqlConnection(UserSingleton.getinstance().connectionString);
+                SqlCommand cmd = new SqlCommand("submit_Answer", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter param;
+
+
+                param = cmd.Parameters.Add("@std_id", SqlDbType.Int);
+                param.Value = UserSingleton.getinstance().user.uid;
+
+                param = cmd.Parameters.Add("@crs_id", SqlDbType.Int);
+                param.Value = cid;
+
+                param = cmd.Parameters.Add("@qust_id", SqlDbType.VarChar);
+                param.Value = int.Parse(dt.Rows[row - 1][0].ToString());
+                param = cmd.Parameters.Add("@answer_id", SqlDbType.Int);
+                param.Value = int.Parse(checkedbutton.Name.ToString());
+                dt.Rows[row - 1][6] = int.Parse(checkedbutton.Name.ToString());
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
             if (q < 10)
             {
                 button3.Hide();
@@ -144,9 +147,7 @@ namespace EXAMINATIONSYSTEM
                 button3.Show();
                 MessageBox.Show("If you Finish Your Exam Click on Submit Button!");
             }
-            con.Open();
-            cmd.ExecuteNonQuery();
-            con.Close();
+          
         }
         private void button2_Click(object sender, EventArgs e)//Back
         {
@@ -217,11 +218,37 @@ namespace EXAMINATIONSYSTEM
         }
       
 
-        private void button3_Click(object sender, EventArgs e)//Submit Exam
+        private void button3_Click(object sender, EventArgs e)//Submit Exam & show grade
         {
-            //sqlReader.Close();
-            //cmd.Dispose();
-            //con.Close();
+            SqlParameter param;
+            SqlCommand cmd;
+            con = new SqlConnection(UserSingleton.getinstance().connectionString);
+            cmd = new SqlCommand("Calculate_Last_Grade", con);
+
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            param = cmd.Parameters.Add("@std_id", SqlDbType.Int);
+            param.Value = UserSingleton.getinstance().user.uid;
+
+            param = cmd.Parameters.Add("@crs_id", SqlDbType.Int);
+            param.Value = cid;
+
+           
+            SqlDataReader dreader;
+            con.Open();
+            SqlDataReader dReader = cmd.ExecuteReader();
+            while (dReader.Read())
+            {
+                if(int.Parse(dReader[0].ToString())>59)
+                    MessageBox.Show("Congratulations you passed! Your Grade is "+dReader[0].ToString());
+                else
+                    MessageBox.Show("You Failed! Your Grade is " + dReader[0].ToString());
+            }
+            con.Close();
+            StudentControlCourse concrs = new StudentControlCourse();
+            concrs.ShowDialog();
+            this.Hide();
+           
 
         }
     }

@@ -28,6 +28,7 @@ namespace EXAMINATIONSYSTEM
             if (e.RowIndex != -1)
             {
                 DataGridViewRow dgv = dataGridView1.Rows[e.RowIndex];
+                label10.Text = dgv.Cells[0].Value.ToString();
                 textBox1.Text = dgv.Cells[1].Value.ToString();
                 textBox2.Text = dgv.Cells[2].Value.ToString();
                 textBox3.Text = dgv.Cells[3].Value.ToString();
@@ -80,6 +81,22 @@ namespace EXAMINATIONSYSTEM
             con.Close();
             BindDatatoDataGrid("sp_selectcoursesforinstructor", UserSingleton.getinstance().user.uid, "@ins_id");
             textBox1.Text = textBox2.Text = textBox3.Text = textBox4.Text = textBox5.Text = string.Empty;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(label10.Text== "Selected Crs_id")
+            {
+                MessageBox.Show("Please choose a Course to show it's topics!");
+            }
+            else
+            {
+                InstructorControlTopic top = new InstructorControlTopic(int.Parse(label10.Text));
+                top.ShowDialog();
+                this.Hide();
+
+            }
+       
         }
     }
 }

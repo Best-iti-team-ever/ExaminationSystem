@@ -18,9 +18,12 @@ namespace EXAMINATIONSYSTEM
             InitializeComponent();
             type = tuser;
             label5.Text = type + " Login";
+            if(tuser=="Admin" || tuser == "Instructor")
+            {
+                button2.Hide();
+            }
 
         }
-
         private void label1_Click(object sender, EventArgs e)//HOME PAGE
         {
             this.DialogResult = DialogResult.Cancel;

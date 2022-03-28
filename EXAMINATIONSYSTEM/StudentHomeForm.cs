@@ -12,9 +12,11 @@ namespace EXAMINATIONSYSTEM
 {
     public partial class StudentHomeForm : Form
     {
+        
         public StudentHomeForm()
         {
             InitializeComponent();
+            
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -33,6 +35,13 @@ namespace EXAMINATIONSYSTEM
         {
             StudentControlCourse studcourse = new StudentControlCourse();
             studcourse.ShowDialog();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            StudentControlData stdata = new StudentControlData();
+            stdata.ShowDialog();
             this.Hide();
         }
     }

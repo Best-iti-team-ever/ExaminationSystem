@@ -89,6 +89,12 @@
     <Compile Include="InstructorControlCourse.Designer.cs">
       <DependentUpon>InstructorControlCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="InstructorControlTopic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorControlTopic.Designer.cs">
+      <DependentUpon>InstructorControlTopic.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstructorDataUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,12 @@
     <Compile Include="StudentControlCourse.Designer.cs">
       <DependentUpon>StudentControlCourse.cs</DependentUpon>
     </Compile>
+    <Compile Include="StudentControlData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentControlData.Designer.cs">
+      <DependentUpon>StudentControlData.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentHomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +185,9 @@
     <EmbeddedResource Include="InstructorControlCourse.resx">
       <DependentUpon>InstructorControlCourse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InstructorControlTopic.resx">
+      <DependentUpon>InstructorControlTopic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InstructorDataUpdate.resx">
       <DependentUpon>InstructorDataUpdate.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StudentControlCourse.resx">
       <DependentUpon>StudentControlCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentControlData.resx">
+      <DependentUpon>StudentControlData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentHomeForm.resx">
       <DependentUpon>StudentHomeForm.cs</DependentUpon>
