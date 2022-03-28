@@ -82,12 +82,13 @@ namespace EXAMINATIONSYSTEM
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(39, 217);
+            this.button2.Location = new System.Drawing.Point(50, 217);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(175, 35);
             this.button2.TabIndex = 75;
             this.button2.Text = "View Courses";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // comboBox1
             // 

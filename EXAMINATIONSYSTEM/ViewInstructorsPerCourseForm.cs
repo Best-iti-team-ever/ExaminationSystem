@@ -76,5 +76,10 @@ namespace EXAMINATIONSYSTEM
             BindDatatoDataGrid("sp_select_Ins_per_Crs", CourseID, "@crs_id");
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //ViewInstructorsPerCourseForm form1 = new ViewInstructorsPerCourseForm();
+        }
     }
 }

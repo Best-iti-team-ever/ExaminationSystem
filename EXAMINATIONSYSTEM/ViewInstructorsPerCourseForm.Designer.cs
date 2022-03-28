@@ -31,6 +31,7 @@ namespace EXAMINATIONSYSTEM
         {
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -51,6 +52,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.SetChildIndex(this.label1, 0);
@@ -60,6 +62,7 @@ namespace EXAMINATIONSYSTEM
             this.panel1.Controls.SetChildIndex(this.btnAdd, 0);
             this.panel1.Controls.SetChildIndex(this.label9, 0);
             this.panel1.Controls.SetChildIndex(this.comboBox1, 0);
+            this.panel1.Controls.SetChildIndex(this.button2, 0);
             // 
             // btnDelete
             // 
@@ -86,6 +89,25 @@ namespace EXAMINATIONSYSTEM
             this.label9.TabIndex = 75;
             this.label9.Text = "Instructor ID";
             // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.Location = new System.Drawing.Point(48, 217);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(175, 35);
+            this.button2.TabIndex = 77;
+            this.button2.Text = "View Instructor";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // ViewInstructorsPerCourseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -104,5 +126,6 @@ namespace EXAMINATIONSYSTEM
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label9;
+        protected System.Windows.Forms.Button button2;
     }
 }

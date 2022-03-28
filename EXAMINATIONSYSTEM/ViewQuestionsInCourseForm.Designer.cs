@@ -39,6 +39,8 @@ namespace EXAMINATIONSYSTEM
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.ans4 = new System.Windows.Forms.Label();
+            this.gradeTB = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,6 +61,8 @@ namespace EXAMINATIONSYSTEM
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.gradeTB);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.ans4TB);
             this.panel1.Controls.Add(this.quesTB);
             this.panel1.Controls.Add(this.ans1TB);
@@ -84,6 +88,8 @@ namespace EXAMINATIONSYSTEM
             this.panel1.Controls.SetChildIndex(this.ans1TB, 0);
             this.panel1.Controls.SetChildIndex(this.quesTB, 0);
             this.panel1.Controls.SetChildIndex(this.ans4TB, 0);
+            this.panel1.Controls.SetChildIndex(this.label3, 0);
+            this.panel1.Controls.SetChildIndex(this.gradeTB, 0);
             // 
             // btnDelete
             // 
@@ -172,6 +178,22 @@ namespace EXAMINATIONSYSTEM
             this.ans4.TabIndex = 37;
             this.ans4.Text = "Answer 4";
             // 
+            // gradeTB
+            // 
+            this.gradeTB.Location = new System.Drawing.Point(92, 268);
+            this.gradeTB.Name = "gradeTB";
+            this.gradeTB.Size = new System.Drawing.Size(88, 20);
+            this.gradeTB.TabIndex = 48;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(21, 271);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(39, 13);
+            this.label3.TabIndex = 47;
+            this.label3.Text = "Grade:";
+            // 
             // ViewQuestionsInCourseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,5 +220,7 @@ namespace EXAMINATIONSYSTEM
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label ans4;
+        private System.Windows.Forms.TextBox gradeTB;
+        private System.Windows.Forms.Label label3;
     }
 }

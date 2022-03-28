@@ -83,5 +83,12 @@ namespace EXAMINATIONSYSTEM
             viewCoursesPerInstructorForm viewCourses = new viewCoursesPerInstructorForm(3);
             viewCourses.ShowDialog();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            int inst_id = int.Parse(comboBox1.Text);
+            viewCoursesPerInstructorForm form1 = new  viewCoursesPerInstructorForm(inst_id);
+            form1.ShowDialog();
+        }
     }
 }

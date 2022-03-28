@@ -81,3 +81,5 @@ F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYST
 F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
 F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
 F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlCourse.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources
