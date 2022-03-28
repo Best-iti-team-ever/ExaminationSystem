@@ -1,7 +1,7 @@
 ﻿
 namespace EXAMINATIONSYSTEM
 {
-    partial class ViewCoursesForDepartmentForm
+    partial class ViewInstructioresForDepartmentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@ namespace EXAMINATIONSYSTEM
         /// </summary>
         private void InitializeComponent()
         {
+            this.button2 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -41,7 +42,6 @@ namespace EXAMINATIONSYSTEM
             this.btnAdd.FlatAppearance.BorderSize = 2;
             this.btnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
             // btnEdit
             // 
@@ -52,6 +52,7 @@ namespace EXAMINATIONSYSTEM
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.SetChildIndex(this.label1, 0);
@@ -61,6 +62,7 @@ namespace EXAMINATIONSYSTEM
             this.panel1.Controls.SetChildIndex(this.btnAdd, 0);
             this.panel1.Controls.SetChildIndex(this.label9, 0);
             this.panel1.Controls.SetChildIndex(this.comboBox1, 0);
+            this.panel1.Controls.SetChildIndex(this.button2, 0);
             // 
             // btnDelete
             // 
@@ -69,31 +71,50 @@ namespace EXAMINATIONSYSTEM
             this.btnDelete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnDelete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
             // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.Location = new System.Drawing.Point(50, 217);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(175, 35);
+            this.button2.TabIndex = 75;
+            this.button2.Text = "View Courses";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 168);
+            this.comboBox1.Location = new System.Drawing.Point(125, 168);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 68;
+            this.comboBox1.TabIndex = 74;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(31, 168);
+            this.label9.Location = new System.Drawing.Point(36, 168);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 17);
-            this.label9.TabIndex = 67;
-            this.label9.Text = "Course ID";
+            this.label9.Size = new System.Drawing.Size(84, 17);
+            this.label9.TabIndex = 73;
+            this.label9.Text = "Instructor ID";
             // 
-            // ViewCoursesForDepartmentForm
+            // ViewInstructioresForDepartmentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "ViewCoursesForDepartmentForm";
-            this.Text = "ViewCoursesForDepartmentForm";
+            this.Name = "ViewInstructioresForDepartmentForm";
+            this.Text = "ViewInstructioresForDepartmentForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -102,6 +123,8 @@ namespace EXAMINATIONSYSTEM
         }
 
         #endregion
+
+        protected System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label9;
     }

@@ -50,24 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
-    <Compile Include="AdminControlAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminControlAdmin.Designer.cs">
-      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminControlCourse.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminControlCourse.Designer.cs">
-      <DependentUpon>AdminControlCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminControlIns.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminControlIns.Designer.cs">
-      <DependentUpon>AdminControlIns.cs</DependentUpon>
-    </Compile>
     <Compile Include="AdminControlStud.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,12 +61,6 @@
     </Compile>
     <Compile Include="AdminHomeForm.Designer.cs">
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AminControlDept.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AminControlDept.Designer.cs">
-      <DependentUpon>AminControlDept.cs</DependentUpon>
     </Compile>
     <Compile Include="ChooseExam.cs">
       <SubType>Form</SubType>
@@ -112,12 +88,6 @@
     </Compile>
     <Compile Include="InstructorControlCourse.Designer.cs">
       <DependentUpon>InstructorControlCourse.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InstructorControlTopic.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InstructorControlTopic.Designer.cs">
-      <DependentUpon>InstructorControlTopic.cs</DependentUpon>
     </Compile>
     <Compile Include="InstructorDataUpdate.cs">
       <SubType>Form</SubType>
@@ -165,12 +135,6 @@
     <Compile Include="StudentControlCourse.Designer.cs">
       <DependentUpon>StudentControlCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentControlData.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudentControlData.Designer.cs">
-      <DependentUpon>StudentControlData.cs</DependentUpon>
-    </Compile>
     <Compile Include="StudentHomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,23 +155,35 @@
     <Compile Include="ViewCoursesForDepartmentForm.Designer.cs">
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AdminControlAdmin.resx">
-      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminControlCourse.resx">
-      <DependentUpon>AdminControlCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminControlIns.resx">
-      <DependentUpon>AdminControlIns.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="viewCoursesPerInstructorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewCoursesPerInstructorForm.Designer.cs">
+      <DependentUpon>viewCoursesPerInstructorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInstructioresForDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewInstructioresForDepartmentForm.Designer.cs">
+      <DependentUpon>ViewInstructioresForDepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInstructorsPerCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewInstructorsPerCourseForm.Designer.cs">
+      <DependentUpon>ViewInstructorsPerCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewQuestionsInCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewQuestionsInCourseForm.Designer.cs">
+      <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminControlStud.resx">
       <DependentUpon>AdminControlStud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminHomeForm.resx">
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AminControlDept.resx">
-      <DependentUpon>AminControlDept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChooseExam.resx">
       <DependentUpon>ChooseExam.cs</DependentUpon>
@@ -220,9 +196,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InstructorControlCourse.resx">
       <DependentUpon>InstructorControlCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InstructorControlTopic.resx">
-      <DependentUpon>InstructorControlTopic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstructorDataUpdate.resx">
       <DependentUpon>InstructorDataUpdate.cs</DependentUpon>
@@ -255,9 +228,6 @@
     <EmbeddedResource Include="StudentControlCourse.resx">
       <DependentUpon>StudentControlCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentControlData.resx">
-      <DependentUpon>StudentControlData.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="StudentHomeForm.resx">
       <DependentUpon>StudentHomeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -266,6 +236,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ViewCoursesForDepartmentForm.resx">
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewCoursesPerInstructorForm.resx">
+      <DependentUpon>viewCoursesPerInstructorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInstructioresForDepartmentForm.resx">
+      <DependentUpon>ViewInstructioresForDepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInstructorsPerCourseForm.resx">
+      <DependentUpon>ViewInstructorsPerCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewQuestionsInCourseForm.resx">
+      <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

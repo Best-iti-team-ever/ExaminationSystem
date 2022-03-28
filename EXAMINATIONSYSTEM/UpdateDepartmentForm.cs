@@ -89,5 +89,11 @@ namespace EXAMINATIONSYSTEM
             this.Hide();
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ViewInstructioresForDepartmentForm form1 = new ViewInstructioresForDepartmentForm(deptID);
+            form1.ShowDialog();
+        }
     }
 }

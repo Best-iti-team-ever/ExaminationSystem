@@ -1,7 +1,7 @@
 ﻿
 namespace EXAMINATIONSYSTEM
 {
-    partial class ViewCoursesForDepartmentForm
+    partial class viewCoursesPerInstructorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,6 @@ namespace EXAMINATIONSYSTEM
             this.btnAdd.FlatAppearance.BorderSize = 2;
             this.btnAdd.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnAdd.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_1);
             // 
             // btnEdit
             // 
@@ -72,28 +71,28 @@ namespace EXAMINATIONSYSTEM
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 168);
+            this.comboBox1.Location = new System.Drawing.Point(121, 164);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 68;
+            this.comboBox1.TabIndex = 78;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(31, 168);
+            this.label9.Location = new System.Drawing.Point(31, 164);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 17);
-            this.label9.TabIndex = 67;
-            this.label9.Text = "Course ID";
+            this.label9.Size = new System.Drawing.Size(74, 17);
+            this.label9.TabIndex = 77;
+            this.label9.Text = "Coures ID:";
             // 
-            // ViewCoursesForDepartmentForm
+            // viewCoursesPerInstructorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "ViewCoursesForDepartmentForm";
-            this.Text = "ViewCoursesForDepartmentForm";
+            this.Name = "viewCoursesPerInstructorForm";
+            this.Text = "viewCoursesPerInstructorForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -102,6 +101,7 @@ namespace EXAMINATIONSYSTEM
         }
 
         #endregion
+
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label9;
     }
