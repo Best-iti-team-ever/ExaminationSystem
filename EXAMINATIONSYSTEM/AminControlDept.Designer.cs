@@ -49,6 +49,7 @@
             this.btnEdit.FlatAppearance.BorderSize = 2;
             this.btnEdit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnEdit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click_1);
             // 
             // panel1
             // 
@@ -75,7 +76,7 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(181, 32);
+            this.label1.Size = new System.Drawing.Size(182, 32);
             this.label1.Text = "Departments";
             // 
             // lblPhone
@@ -113,13 +114,13 @@
             this.cbxMangerID.Size = new System.Drawing.Size(122, 21);
             this.cbxMangerID.TabIndex = 59;
             // 
-            // AminControlDept
+            // AdminControlDept
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AminControlDept";
+            this.Name = "AdminControlDept";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AminControlDept";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

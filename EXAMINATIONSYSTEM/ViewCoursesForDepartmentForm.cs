@@ -42,11 +42,11 @@ namespace EXAMINATIONSYSTEM
             if (e.RowIndex != -1)
             {
                 DataGridViewRow dgv = dataGridView1.Rows[e.RowIndex];
-                textBox1.Text = dgv.Cells[1].Value.ToString();
-                textBox2.Text = dgv.Cells[2].Value.ToString();
-                textBox3.Text = dgv.Cells[3].Value.ToString();
-                textBox4.Text = dgv.Cells[4].Value.ToString();
-                textBox5.Text = dgv.Cells[5].Value.ToString();
+                //textBox1.Text = dgv.Cells[1].Value.ToString();
+                //textBox2.Text = dgv.Cells[2].Value.ToString();
+                //textBox3.Text = dgv.Cells[3].Value.ToString();
+                //textBox4.Text = dgv.Cells[4].Value.ToString();
+                //textBox5.Text = dgv.Cells[5].Value.ToString();
               
             }
         }

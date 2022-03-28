@@ -1,117 +1,35 @@
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.SuggestedBindingRedirects.cache
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
-C:\Users\Youssef\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
-C:\Users\Youssef\source\repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
-C:\Users\Youssef\source\repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
-F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
-<<<<<<< HEAD
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlCourse.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorDataUpdate.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorHomeForm.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlCourse.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlData.resources
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
-<<<<<<< HEAD
-=======
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlIns.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
-C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.SuggestedBindingRedirects.cache
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlAdmin.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlIns.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
-C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
-C:\Users\AboKhaled\source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlDept.resources
-C:\Users\AboKhaled\source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlCourse.resources
->>>>>>> AdminBranch
-=======
-D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlTopic.resources
->>>>>>> Instructor
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlAdmin.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlCourse.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlIns.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlDept.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlCourse.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlTopic.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorDataUpdate.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorHomeForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlCourse.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlData.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.viewCoursesPerInstructorForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewInstructioresForDepartmentForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewInstructorsPerCourseForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewQuestionsInCourseForm.resources
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
+F:\ITI material\SQLServer course\project final\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache

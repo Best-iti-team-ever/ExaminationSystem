@@ -91,12 +91,19 @@ namespace EXAMINATIONSYSTEM
             }
             else
             {
+                
                 InstructorControlTopic top = new InstructorControlTopic(int.Parse(label10.Text));
                 top.ShowDialog();
                 this.Hide();
 
             }
        
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ViewQuestionsInCourseForm questions = new  ViewQuestionsInCourseForm(int.Parse(label10.Text));
+            questions.ShowDialog();
         }
     }
 }

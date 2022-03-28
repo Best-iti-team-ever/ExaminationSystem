@@ -210,6 +210,7 @@ namespace EXAMINATIONSYSTEM
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UpdateDepartmentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UpdateDepartmentForm";
             this.ResumeLayout(false);
             this.PerformLayout();
