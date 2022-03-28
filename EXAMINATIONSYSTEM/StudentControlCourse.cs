@@ -172,34 +172,44 @@ namespace EXAMINATIONSYSTEM
 
         private void button2_Click(object sender, EventArgs e)//Show Student Grade in this Course
         {
-            SqlCommand cmd = new SqlCommand("Calculate_Grade", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-
-            SqlParameter param;
-
-            param = cmd.Parameters.Add(" @Student_ID", SqlDbType.Int);
-            param.Value = UserSingleton.getinstance().user.uid;
-
-            param = cmd.Parameters.Add("@crsid", SqlDbType.Int);
-            param.Value = int.Parse(comboBox3.Text);
-
-            var str = "select distinct std_take from ExamQuestion where std_id = 17 and crs_id = 1";
-            //MessageBox.Show(str);
-            SqlCommand selectatke = new SqlCommand();
-            selectatke.CommandText = str;
-            SqlDataReader dReader = selectatke.ExecuteReader();
-            while(dReader.Read())
+            if(comboBox3.Text==string.Empty)
             {
-
+                MessageBox.Show("Choose a Course Id First to show your Grade!");
             }
+            else
+            {
+                SqlParameter param;
+                SqlCommand cmd;
+                con = new SqlConnection(UserSingleton.getinstance().connectionString);
+                cmd = new SqlCommand("Calculate_Last_Grade", con);
 
-            param = cmd.Parameters.Add("@take int", SqlDbType.Int);
-            param.Value = int.Parse(comboBox3.Text);
+                cmd.CommandType = CommandType.StoredProcedure;
 
-            con.Open();
-            cmd.ExecuteNonQuery();
-            con.Close();
-          
+                param = cmd.Parameters.Add("@std_id", SqlDbType.Int);
+                param.Value = UserSingleton.getinstance().user.uid;
+
+                param = cmd.Parameters.Add("@crs_id", SqlDbType.Int);
+                param.Value = comboBox3.Text;
+
+
+                SqlDataReader dreader;
+                con.Open();
+                SqlDataReader dReader = cmd.ExecuteReader();
+                while (dReader.Read())
+                {
+                    if (int.Parse(dReader[0].ToString()) > 59)
+                        MessageBox.Show("Congratulations you passed! Your Grade is " + dReader[0].ToString());
+                    else
+                        MessageBox.Show("You Failed! Your Grade is " + dReader[0].ToString());
+                }
+                con.Close();
+                StudentControlCourse concrs = new StudentControlCourse();
+                concrs.ShowDialog();
+                this.Hide();
+               
+            }
+           
+
 
         }
     }
