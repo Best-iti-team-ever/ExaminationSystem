@@ -35,6 +35,7 @@
             this.AdminHomeLabel = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -43,7 +44,7 @@
             this.label2.BackColor = System.Drawing.Color.IndianRed;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(397, 146);
+            this.label2.Location = new System.Drawing.Point(397, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 36);
             this.label2.TabIndex = 7;
@@ -57,7 +58,7 @@
             this.label1.BackColor = System.Drawing.Color.IndianRed;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(388, 218);
+            this.label1.Location = new System.Drawing.Point(387, 226);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 36);
             this.label1.TabIndex = 5;
@@ -71,7 +72,7 @@
             this.Instructor.BackColor = System.Drawing.Color.IndianRed;
             this.Instructor.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Instructor.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Instructor.Location = new System.Drawing.Point(376, 288);
+            this.Instructor.Location = new System.Drawing.Point(374, 288);
             this.Instructor.Name = "Instructor";
             this.Instructor.Size = new System.Drawing.Size(166, 36);
             this.Instructor.TabIndex = 6;
@@ -85,7 +86,7 @@
             this.label3.BackColor = System.Drawing.Color.IndianRed;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(364, 351);
+            this.label3.Location = new System.Drawing.Point(361, 350);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(193, 36);
             this.label3.TabIndex = 8;
@@ -98,7 +99,7 @@
             this.AdminHomeLabel.AutoSize = true;
             this.AdminHomeLabel.BackColor = System.Drawing.Color.Transparent;
             this.AdminHomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminHomeLabel.Location = new System.Drawing.Point(343, 77);
+            this.AdminHomeLabel.Location = new System.Drawing.Point(343, 37);
             this.AdminHomeLabel.Name = "AdminHomeLabel";
             this.AdminHomeLabel.Size = new System.Drawing.Size(228, 39);
             this.AdminHomeLabel.TabIndex = 9;
@@ -132,6 +133,20 @@
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.IndianRed;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(391, 164);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(133, 36);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Courses";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // AdminHomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -139,6 +154,7 @@
             this.BackgroundImage = global::EXAMINATIONSYSTEM.Properties.Resources.choose_exam;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(736, 419);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.AdminHomeLabel);
@@ -164,5 +180,6 @@
         private System.Windows.Forms.Label AdminHomeLabel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

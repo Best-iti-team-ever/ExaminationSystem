@@ -50,6 +50,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
+    <Compile Include="AdminControlAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlAdmin.Designer.cs">
+      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControlCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlCourse.Designer.cs">
+      <DependentUpon>AdminControlCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControlIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlIns.Designer.cs">
+      <DependentUpon>AdminControlIns.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminControlStud.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +79,12 @@
     </Compile>
     <Compile Include="AdminHomeForm.Designer.cs">
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AminControlDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AminControlDept.Designer.cs">
+      <DependentUpon>AminControlDept.cs</DependentUpon>
     </Compile>
     <Compile Include="ChooseExam.cs">
       <SubType>Form</SubType>
@@ -155,11 +179,23 @@
     <Compile Include="ViewCoursesForDepartmentForm.Designer.cs">
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminControlAdmin.resx">
+      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlCourse.resx">
+      <DependentUpon>AdminControlCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlIns.resx">
+      <DependentUpon>AdminControlIns.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminControlStud.resx">
       <DependentUpon>AdminControlStud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminHomeForm.resx">
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AminControlDept.resx">
+      <DependentUpon>AminControlDept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChooseExam.resx">
       <DependentUpon>ChooseExam.cs</DependentUpon>

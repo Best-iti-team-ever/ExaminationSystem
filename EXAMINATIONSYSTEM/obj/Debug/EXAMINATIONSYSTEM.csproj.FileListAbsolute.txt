@@ -53,6 +53,7 @@ F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\ob
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
 F:\ITI material\SQLServer course\Project2\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+<<<<<<< HEAD
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorControlCourse.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorDataUpdate.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.InstructorHomeForm.resources
@@ -61,3 +62,51 @@ D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentHomeForm.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.StudentControlCourse.resources
 D:\00 PD ITI\Advanced sql server\Project\EXAMINATIONSYSTEM\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
+=======
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlIns.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
+C:\Users\Waad\Desktop\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe.config
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.exe
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\bin\Debug\EXAMINATIONSYSTEM.pdb
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.AssemblyReference.cache
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.SuggestedBindingRedirects.cache
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlAdmin.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlIns.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlStud.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminHomeForm.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ChooseExam.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Exam.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Home.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Instructorlogin.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Properties.Resources.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.RepeatedFrom.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Std_Signup.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.Loginform.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.UpdateDepartmentForm.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.ViewCoursesForDepartmentForm.resources
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.GenerateResource.cache
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.csproj.CoreCompileInputs.cache
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.exe
+C:\Users\AboKhaled\Source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.pdb
+C:\Users\AboKhaled\source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlDept.resources
+C:\Users\AboKhaled\source\Repos\Best-iti-team-ever\ExaminationSystem\EXAMINATIONSYSTEM\obj\Debug\EXAMINATIONSYSTEM.AdminControlCourse.resources
+>>>>>>> AdminBranch

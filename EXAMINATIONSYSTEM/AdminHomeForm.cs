@@ -19,7 +19,8 @@ namespace EXAMINATIONSYSTEM
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            var adminCtrlAdmins = new AdminControlAdmin();
+            adminCtrlAdmins.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -30,12 +31,14 @@ namespace EXAMINATIONSYSTEM
 
         private void label3_Click(object sender, EventArgs e)
         {
-            UpdateDepartmentForm up = new UpdateDepartmentForm(3);
-            up.ShowDialog();
+            var ad = new AdminControlDept();
+            ad.ShowDialog();
         }
 
         private void Instructor_Click(object sender, EventArgs e)
         {
+            AdminControlIns ins = new AdminControlIns();
+            ins.ShowDialog();
 
         }
 
@@ -47,6 +50,12 @@ namespace EXAMINATIONSYSTEM
         private void label4_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            AdminControlCourse ins = new AdminControlCourse();
+            ins.ShowDialog();
         }
     }
 }
