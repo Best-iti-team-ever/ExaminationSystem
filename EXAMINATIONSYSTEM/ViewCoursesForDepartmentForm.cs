@@ -19,7 +19,7 @@ namespace EXAMINATIONSYSTEM
         {
             InitializeComponent();
             deptID = dept_id;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            //this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             
             BindDatatoDataGrid("sp_selectcoursesindepartment",deptID, "@dept_id");
 
@@ -34,22 +34,18 @@ namespace EXAMINATIONSYSTEM
             }
             dReader.Close();
             con.Close();
+            btnEdit.Hide();
 
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex != -1)
-            {
-                DataGridViewRow dgv = dataGridView1.Rows[e.RowIndex];
-                //textBox1.Text = dgv.Cells[1].Value.ToString();
-                //textBox2.Text = dgv.Cells[2].Value.ToString();
-                //textBox3.Text = dgv.Cells[3].Value.ToString();
-                //textBox4.Text = dgv.Cells[4].Value.ToString();
-                //textBox5.Text = dgv.Cells[5].Value.ToString();
-              
-            }
-        }
+        //private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    if (e.RowIndex != -1)
+        //    {
+        //        DataGridViewRow dgv = dataGridView1.Rows[e.RowIndex];
+
+        //    }
+        //}
 
         protected override void btnAdd_Click(object sender, EventArgs e)
         {
@@ -64,6 +60,7 @@ namespace EXAMINATIONSYSTEM
 
             param = cmd.Parameters.Add("@coures_id", SqlDbType.Int);
             param.Value = int.Parse(comboBox1.Text);
+
             con.Open();
             cmd.ExecuteNonQuery();
             MessageBox.Show("course added to department ");
@@ -75,7 +72,26 @@ namespace EXAMINATIONSYSTEM
         {
 
         }
+        protected override void btnDelete_Click(object sender, EventArgs e)
+        {
+            //ALTER proc [dbo].[sp_DeleteCourseFromDepartment] @dept_id int , @course_id int
 
+            SqlCommand cmd = new SqlCommand("sp_DeleteCourseFromDepartment", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            SqlParameter param = cmd.Parameters.Add("@dept_id", SqlDbType.Int);
+            param.Value = deptID;
+
+            param = cmd.Parameters.Add("@course_id", SqlDbType.Int);
+            param.Value = int.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+           
+            con.Open();
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("course deleted to department ");
+            con.Close();
+            BindDatatoDataGrid("sp_selectcoursesindepartment", deptID, "@dept_id");
+
+        }
         private void btnAdd_Click_1(object sender, EventArgs e)
         {
 
