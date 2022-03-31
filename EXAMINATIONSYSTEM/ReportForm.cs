@@ -25,7 +25,7 @@ namespace EXAMINATIONSYSTEM
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.reportViewer1.ServerReport.ReportPath = "/Report3withproc/Report1";
+            this.reportViewer1.ServerReport.ReportPath = "/report1withproc/Report1";
             this.reportViewer1.RefreshReport();
         }
 

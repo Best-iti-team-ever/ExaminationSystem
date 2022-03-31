@@ -44,7 +44,7 @@ namespace EXAMINATIONSYSTEM
             param.Value = textBox7.Text.ToHash();
 
             con.Open();
-            cmd.ExecuteNonQuery();
+            //cmd.ExecuteNonQuery();
             SqlDataReader dReader = cmd.ExecuteReader();
             if (dReader.Read())
             {

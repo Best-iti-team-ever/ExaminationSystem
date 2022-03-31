@@ -9,6 +9,8 @@ Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "project5withproc", "EXAMINA
 EndProject
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Report3withproc", "EXAMINATIONSYSTEM\ALL Reports\Report3withproc\Report3withproc.rptproj", "{0251451E-8FF8-4356-B501-9A181125EE10}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "report1withproc", "EXAMINATIONSYSTEM\ALL Reports\report1withproc\report1withproc.rptproj", "{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,15 @@ Global
 		{0251451E-8FF8-4356-B501-9A181125EE10}.Release|Any CPU.ActiveCfg = Release
 		{0251451E-8FF8-4356-B501-9A181125EE10}.Release|Any CPU.Build.0 = Release
 		{0251451E-8FF8-4356-B501-9A181125EE10}.Release|Any CPU.Deploy.0 = Release
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.Debug|Any CPU.ActiveCfg = Debug
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.Debug|Any CPU.Build.0 = Debug
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.Debug|Any CPU.Deploy.0 = Debug
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.DebugLocal|Any CPU.Deploy.0 = DebugLocal
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.Release|Any CPU.ActiveCfg = Release
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.Release|Any CPU.Build.0 = Release
+		{E68CB3B1-C25E-4868-ADDD-EB21B577D8DC}.Release|Any CPU.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
