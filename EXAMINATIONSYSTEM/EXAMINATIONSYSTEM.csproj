@@ -335,6 +335,7 @@
     <EmbeddedResource Include="ViewQuestionsInCourseForm.resx">
       <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataBase Backup\backup1.bak" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
