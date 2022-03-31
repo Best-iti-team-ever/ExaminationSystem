@@ -336,6 +336,7 @@
       <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DataBase Backup\backup1.bak" />
+    <None Include="Database docs\sqlproject.database.windows.net_documentation-2022-03-29T23-27-14.pdf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
