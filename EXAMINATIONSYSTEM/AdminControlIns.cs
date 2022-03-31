@@ -122,7 +122,7 @@ namespace EXAMINATIONSYSTEM
             {
                 cmd = new SqlCommand("sp_updateInstructor", con);
 
-                param = cmd.Parameters.Add("@ins_passowrd", SqlDbType.VarChar, 64);
+                param = cmd.Parameters.Add("@ins_password", SqlDbType.VarChar, 64);
                 param.Value = textBox5.Text.ToHash();
             }
             cmd.CommandType = CommandType.StoredProcedure;

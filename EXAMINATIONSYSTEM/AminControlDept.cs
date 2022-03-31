@@ -96,7 +96,7 @@ namespace EXAMINATIONSYSTEM
             cmd.CommandType = CommandType.StoredProcedure;
             SqlParameter param;
             param = cmd.Parameters.Add("@dept_id", SqlDbType.Int);
-            param.Value = int.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+            param.Value = dataGridView1.SelectedRows[0].Cells[0].Value.toInt();
             con.Open();
             if (cmd.ExecuteNonQuery() == 1)
             {
@@ -109,8 +109,14 @@ namespace EXAMINATIONSYSTEM
 
         protected override void btnEdit_Click(object sender, EventArgs e)
         {
-            UpdateDepartmentForm up = new UpdateDepartmentForm(3);
+            int dept_id = dataGridView1.SelectedRows[0].Cells[0].Value.toInt();
+            UpdateDepartmentForm up = new UpdateDepartmentForm(dept_id);
             up.ShowDialog();
+        }
+
+        private void btnEdit_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 

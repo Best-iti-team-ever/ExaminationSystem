@@ -39,7 +39,6 @@ namespace EXAMINATIONSYSTEM
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -154,7 +153,7 @@ namespace EXAMINATIONSYSTEM
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(191, 246);
+            this.button2.Location = new System.Drawing.Point(280, 246);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 35);
             this.button2.TabIndex = 63;
@@ -172,24 +171,6 @@ namespace EXAMINATIONSYSTEM
             this.label5.TabIndex = 64;
             this.label5.Text = "Update Department";
             // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button3.BackColor = System.Drawing.Color.IndianRed;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.Location = new System.Drawing.Point(348, 246);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 35);
-            this.button3.TabIndex = 66;
-            this.button3.Text = "Add Course";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
             // UpdateDepartmentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -197,7 +178,6 @@ namespace EXAMINATIONSYSTEM
             this.BackgroundImage = global::EXAMINATIONSYSTEM.Properties.Resources.choose_exam;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(569, 382);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -210,6 +190,7 @@ namespace EXAMINATIONSYSTEM
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UpdateDepartmentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UpdateDepartmentForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -228,6 +209,5 @@ namespace EXAMINATIONSYSTEM
         protected System.Windows.Forms.Button button1;
         protected System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
-        protected System.Windows.Forms.Button button3;
     }
 }
