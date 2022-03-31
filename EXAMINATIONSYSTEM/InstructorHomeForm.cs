@@ -44,5 +44,12 @@ namespace EXAMINATIONSYSTEM
             this.Close();
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            ReportForm report = new ReportForm();
+            report.ShowDialog();
+            this.Close();
+        }
     }
 }

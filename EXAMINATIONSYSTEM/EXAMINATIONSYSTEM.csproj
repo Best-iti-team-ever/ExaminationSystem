@@ -33,6 +33,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -51,23 +74,23 @@
   <ItemGroup>
     <Compile Include="Admin.cs" />
     <Compile Include="AdminControlAdmin.cs">
-        <SubType>Form</SubType>
-      </Compile>
-      <Compile Include="AdminControlAdmin.Designer.cs">
-        <DependentUpon>AdminControlAdmin.cs</DependentUpon>
-      </Compile>
-      <Compile Include="AdminControlCourse.cs">
-        <SubType>Form</SubType>
-      </Compile>
-      <Compile Include="AdminControlCourse.Designer.cs">
-        <DependentUpon>AdminControlCourse.cs</DependentUpon>
-      </Compile>
-      <Compile Include="AdminControlIns.cs">
-        <SubType>Form</SubType>
-      </Compile>
-      <Compile Include="AdminControlIns.Designer.cs">
-        <DependentUpon>AdminControlIns.cs</DependentUpon>
-      </Compile>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlAdmin.Designer.cs">
+      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControlCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlCourse.Designer.cs">
+      <DependentUpon>AdminControlCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControlIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlIns.Designer.cs">
+      <DependentUpon>AdminControlIns.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminControlStud.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +98,11 @@
       <DependentUpon>AdminControlStud.cs</DependentUpon>
     </Compile>
     <Compile Include="AminControlDept.cs">
-        <SubType>Form</SubType>
-      </Compile>
-      <Compile Include="AminControlDept.Designer.cs">
-        <DependentUpon>AminControlDept.cs</DependentUpon>
-      </Compile>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AminControlDept.Designer.cs">
+      <DependentUpon>AminControlDept.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminHomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,11 +137,11 @@
       <DependentUpon>InstructorControlCourse.cs</DependentUpon>
     </Compile>
     <Compile Include="InstructorControlTopic.cs">
-        <SubType>Form</SubType>
-      </Compile>
-      <Compile Include="InstructorControlTopic.Designer.cs">
-        <DependentUpon>InstructorControlTopic.cs</DependentUpon>
-      </Compile>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstructorControlTopic.Designer.cs">
+      <DependentUpon>InstructorControlTopic.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstructorDataUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +169,12 @@
     <Compile Include="RepeatedFrom.Designer.cs">
       <DependentUpon>RepeatedFrom.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Std_Signup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,11 +195,11 @@
       <DependentUpon>StudentControlCourse.cs</DependentUpon>
     </Compile>
     <Compile Include="StudentControlData.cs">
-        <SubType>Form</SubType>
-      </Compile>
-      <Compile Include="StudentControlData.Designer.cs">
-        <DependentUpon>StudentControlData.cs</DependentUpon>
-      </Compile>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentControlData.Designer.cs">
+      <DependentUpon>StudentControlData.cs</DependentUpon>
+    </Compile>
     <Compile Include="StudentHomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,14 +221,14 @@
       <DependentUpon>ViewCoursesForDepartmentForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AdminControlAdmin.resx">
-        <DependentUpon>AdminControlAdmin.cs</DependentUpon>
-      </EmbeddedResource>
-      <EmbeddedResource Include="AdminControlCourse.resx">
-        <DependentUpon>AdminControlCourse.cs</DependentUpon>
-      </EmbeddedResource>
-      <EmbeddedResource Include="AdminControlIns.resx">
-        <DependentUpon>AdminControlIns.cs</DependentUpon>
-      </EmbeddedResource>
+      <DependentUpon>AdminControlAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlCourse.resx">
+      <DependentUpon>AdminControlCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlIns.resx">
+      <DependentUpon>AdminControlIns.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="viewCoursesPerInstructorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,8 +260,8 @@
       <DependentUpon>AdminHomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AminControlDept.resx">
-        <DependentUpon>AminControlDept.cs</DependentUpon>
-      </EmbeddedResource>
+      <DependentUpon>AminControlDept.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChooseExam.resx">
       <DependentUpon>ChooseExam.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,8 +275,8 @@
       <DependentUpon>InstructorControlCourse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstructorControlTopic.resx">
-        <DependentUpon>InstructorControlTopic.cs</DependentUpon>
-      </EmbeddedResource>
+      <DependentUpon>InstructorControlTopic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InstructorDataUpdate.resx">
       <DependentUpon>InstructorDataUpdate.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +299,9 @@
     <EmbeddedResource Include="RepeatedFrom.resx">
       <DependentUpon>RepeatedFrom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Std_Signup.resx">
       <DependentUpon>Std_Signup.cs</DependentUpon>
     </EmbeddedResource>
@@ -280,8 +312,8 @@
       <DependentUpon>StudentControlCourse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentControlData.resx">
-        <DependentUpon>StudentControlData.cs</DependentUpon>
-      </EmbeddedResource>
+      <DependentUpon>StudentControlData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StudentHomeForm.resx">
       <DependentUpon>StudentHomeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -303,6 +335,7 @@
     <EmbeddedResource Include="ViewQuestionsInCourseForm.resx">
       <DependentUpon>ViewQuestionsInCourseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

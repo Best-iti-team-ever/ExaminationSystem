@@ -129,6 +129,7 @@ namespace EXAMINATIONSYSTEM
             this.label3.TabIndex = 22;
             this.label3.Text = "Reports";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // InstructorHomeForm
             // 
