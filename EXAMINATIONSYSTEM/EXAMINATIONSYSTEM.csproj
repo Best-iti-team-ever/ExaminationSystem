@@ -373,5 +373,8 @@
   <ItemGroup>
     <None Include="Resources\Exam bg.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ALL Reports\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
